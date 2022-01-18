@@ -15,7 +15,7 @@ Class lectures are recorded each day and links will be posted here once availabl
 - Day 1 
     - [Staff Intros](https://techelevator.zoom.us/rec/share/SnxMoNyr3K0RKQqfyyxBhpHIWXY7eqyf91ARoaRCO0IEulfKnkoiRG_VQU7ULQrd.hji8RgloBdzWL9R5?startTime=1642427204000)
     - [Expectations & Best Practices](https://techelevator.zoom.us/rec/share/SnxMoNyr3K0RKQqfyyxBhpHIWXY7eqyf91ARoaRCO0IEulfKnkoiRG_VQU7ULQrd.hji8RgloBdzWL9R5?startTime=1642433280000)
-    - [Intro to Tools (pt1 - Online stuff)]()
-    - [Intro to Tools (pt2 - Commands)]()
+    - [Intro to Tools (pt1 - Online stuff)](https://techelevator.zoom.us/rec/share/AszLjjHPnRYbsi65-lQW0XsE47QrmM3vfCCovySyCuuBO4kJ9ChCSK8qnsALrLhQ.MxWA8mraTWhLAxUN?startTime=1642442904000)
+    - [Intro to Tools (pt2 - Commands)](https://techelevator.zoom.us/rec/share/AszLjjHPnRYbsi65-lQW0XsE47QrmM3vfCCovySyCuuBO4kJ9ChCSK8qnsALrLhQ.MxWA8mraTWhLAxUN?startTime=1642449932000)
 
 
