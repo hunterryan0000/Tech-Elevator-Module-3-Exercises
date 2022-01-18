@@ -19,3 +19,7 @@ Class lectures are recorded each day and links will be posted here once availabl
     - [Intro to Tools (pt2 - Commands)](https://techelevator.zoom.us/rec/share/AszLjjHPnRYbsi65-lQW0XsE47QrmM3vfCCovySyCuuBO4kJ9ChCSK8qnsALrLhQ.MxWA8mraTWhLAxUN?startTime=1642449932000)
 
 
+- Day 2
+    - [Review Windows Terminal, VS Code, git](https://techelevator.zoom.us/rec/share/EmThean-h23DpJeD3ySz719rLOcC56WZlHMbtJZEY-kZgDxF76xKSaCjNva7T3e4.TVUVCQ_IBq97MZVx?startTime=1642516977000)
+    - [IntelliJ & Java Variables Intro](https://techelevator.zoom.us/rec/share/EmThean-h23DpJeD3ySz719rLOcC56WZlHMbtJZEY-kZgDxF76xKSaCjNva7T3e4.TVUVCQ_IBq97MZVx?startTime=1642522118000)
+
