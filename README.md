@@ -8,10 +8,14 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 ### Tech Setup Session
 
-- Coming Soon
+- [Session Recording (does not include breakout rooms)](https://techelevator.zoom.us/rec/share/s9Yc0Jl9imcNM11cg-sc3Cxy46gJP9MOHNkNVkPIkSLPWlP7ECW16p0LUlaZ8-p4.dauZwb8hoBn3Twxa?startTime=1642178228000)
 
 ### Module 1
 
-- Day 1 (Coming Soon)
+- Day 1 
+    - [Staff Intros](https://techelevator.zoom.us/rec/share/SnxMoNyr3K0RKQqfyyxBhpHIWXY7eqyf91ARoaRCO0IEulfKnkoiRG_VQU7ULQrd.hji8RgloBdzWL9R5?startTime=1642427204000)
+    - [Expectations & Best Practices](https://techelevator.zoom.us/rec/share/SnxMoNyr3K0RKQqfyyxBhpHIWXY7eqyf91ARoaRCO0IEulfKnkoiRG_VQU7ULQrd.hji8RgloBdzWL9R5?startTime=1642433280000)
+    - [Intro to Tools (pt1 - Online stuff)](https://techelevator.zoom.us/rec/share/AszLjjHPnRYbsi65-lQW0XsE47QrmM3vfCCovySyCuuBO4kJ9ChCSK8qnsALrLhQ.MxWA8mraTWhLAxUN?startTime=1642442904000)
+    - [Intro to Tools (pt2 - Commands)](https://techelevator.zoom.us/rec/share/AszLjjHPnRYbsi65-lQW0XsE47QrmM3vfCCovySyCuuBO4kJ9ChCSK8qnsALrLhQ.MxWA8mraTWhLAxUN?startTime=1642449932000)
 
 
