@@ -68,7 +68,9 @@ public class Examples {
 		averageCookiesEaten = (float)cookiesEaten / numberOfChildrenEatingCookies; // here we "cast" an int variable to type float so that the result of the arithmetic operation is a float
 		System.out.println("(casting to float) Average Cookies Eaten: "+averageCookiesEaten);
 		
-		double aDouble = 7.89;
+
+//		double aDouble = 7.89; "// to the side is comment"
+		double aDouble = 10.94;
 		//int anInteger = aDouble;  // this is a compiler error
 		int anInteger = (int)aDouble;  // this will truncate the fractional part of the double
 		System.out.println(aDouble+" cast to an int is equal to: "+anInteger);
