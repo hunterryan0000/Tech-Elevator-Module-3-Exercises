@@ -6,7 +6,7 @@ public class Lecture {
     it so that it returns something other than a 1.
     */
     public int returnNotOne() {
-        return 1;
+        return 11;
     }
 
     /*
@@ -14,14 +14,14 @@ public class Lecture {
     it so that it returns something other than a 0.5.
     */
     public double returnNotHalf() {
-        return 0.5;
+        return 1.5;
     }
 
     /*
     3. This method needs to return a String. Fix it to return a valid String.
     */
     public String returnName() {
-        return null;
+        return "Ryan Jamal Hunter";
     }
 
     /*
@@ -35,8 +35,8 @@ public class Lecture {
     5. This method should return the language that you're learning. Change
     it so that it does that.
     */
-    public boolean returnNameOfLanguage() {
-        return false;
+    public String returnNameOfLanguage() {
+        return "Java";
     }
 
     /*
@@ -45,7 +45,7 @@ public class Lecture {
     */
     public boolean returnTrueFromIf() {
         if (true) {
-            return false;
+            return true;
         }
 
         return false;

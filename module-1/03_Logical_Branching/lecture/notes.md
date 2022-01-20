@@ -35,12 +35,12 @@
 
 [Logical Operators w/ Truth Table](https://lms.techelevator.com/content_link/gitlab.com/te-curriculum/intro-to-programming-java-lms/02_Logical_Branching/02-boolean-expressions.md)
 
-    | `A`       | `B`       | `!A`  | `A && B` | <code>A &#124;&#124; B</code>      | `A ^ B` |
-    |-----------|-----------|-------|----------|------------------------------------|---------|
-    | **TRUE**  | **TRUE**  | FALSE | TRUE     | TRUE                               | FALSE   |
-    | **TRUE**  | **FALSE** | FALSE | FALSE    | TRUE                               | TRUE    |
-    | **FALSE** | **TRUE**  | TRUE  | FALSE    | TRUE                               | TRUE    |
-    | **FALSE** | **FALSE** | TRUE  | FALSE    | FALSE                              | FALSE   |
+    | `A`       | `B`       | `!A`  | `A && B` | `A || B`   | `A ^ B` |
+    |-----------|-----------|-------|----------|------------|---------|
+    | **TRUE**  | **TRUE**  | FALSE | TRUE     | TRUE       | FALSE   |
+    | **TRUE**  | **FALSE** | FALSE | FALSE    | TRUE       | TRUE    |
+    | **FALSE** | **TRUE**  | TRUE  | FALSE    | TRUE       | TRUE    |
+    | **FALSE** | **FALSE** | TRUE  | FALSE    | FALSE      | FALSE   |
 
 
 ## Additional Resources
