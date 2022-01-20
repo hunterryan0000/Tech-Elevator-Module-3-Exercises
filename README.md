@@ -23,3 +23,5 @@ Class lectures are recorded each day and links will be posted here once availabl
     - [Review Windows Terminal, VS Code, git](https://techelevator.zoom.us/rec/share/EmThean-h23DpJeD3ySz719rLOcC56WZlHMbtJZEY-kZgDxF76xKSaCjNva7T3e4.TVUVCQ_IBq97MZVx?startTime=1642516977000)
     - [IntelliJ & Java Variables Intro](https://techelevator.zoom.us/rec/share/EmThean-h23DpJeD3ySz719rLOcC56WZlHMbtJZEY-kZgDxF76xKSaCjNva7T3e4.TVUVCQ_IBq97MZVx?startTime=1642522118000)
 
+- Day 3 
+    - [Full Lecture](https://techelevator.zoom.us/rec/share/xjbtsqm7_om6LsaksCvzFWdt2Te-BNmLRrBgbeY_VO9MoFm4qlVrJs1LUetgR0iC.pTzzdNO2dancVfjB?startTime=1642603850000)
