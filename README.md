@@ -25,3 +25,7 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 - Day 3 
     - [Full Lecture](https://techelevator.zoom.us/rec/share/xjbtsqm7_om6LsaksCvzFWdt2Te-BNmLRrBgbeY_VO9MoFm4qlVrJs1LUetgR0iC.pTzzdNO2dancVfjB?startTime=1642603850000)
+
+- Day 4 
+    - [Review](https://techelevator.zoom.us/rec/share/ww-aAYTsmgpnAcyzc0p1_Lvlgw5AEHXP3zVVb1irQe5bop3iNKUJ8HecH3EWqz05.-Y9Qa8sOaT2Zm6CY?startTime=1642690137000)
+    - [Arrays/Loops Intro](https://techelevator.zoom.us/rec/share/ww-aAYTsmgpnAcyzc0p1_Lvlgw5AEHXP3zVVb1irQe5bop3iNKUJ8HecH3EWqz05.-Y9Qa8sOaT2Zm6CY?startTime=1642698678000)
