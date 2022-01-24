@@ -22,8 +22,7 @@ public class TempConvert {
 
 		double tempC = (temp - 32) / 1.8;
 		double tempF = temp * 1.8 + 32;
-
-
+		
 
 			if (whichIsIt.equals("F")) {
 				System.out.println(temp + whichIsIt + " is " + tempC + "C");
@@ -31,10 +30,6 @@ public class TempConvert {
 				System.out.println(temp + whichIsIt + " is " + tempF + "F");
 			}
 		System.out.println("\n \nYay for conversions! Woooo!!!!");
-		System.out.println("\n \n \n \n																						Ryan's Easter Egg =)");
-
-
-
 
 
 

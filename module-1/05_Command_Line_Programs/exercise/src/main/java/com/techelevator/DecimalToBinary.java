@@ -10,7 +10,6 @@ public class DecimalToBinary {
 
 		System.out.print("Please enter in a series of decimal values (separated by spaces): ");
 
-		System.out.println();
 
 		String decimalValuesEntered = scanner.nextLine();
 		String[] decimalValuesSeparated = decimalValuesEntered.split(" ");
@@ -18,6 +17,7 @@ public class DecimalToBinary {
 
 		for(int i = 0;  i < decimalValuesSeparated.length ; i++) {
 			int inputNumber = Integer.parseInt(decimalValuesSeparated[i]);
+			System.out.println();
 			System.out.print(inputNumber + " in binary is ");
 
 			decimalToBinary(inputNumber);
@@ -27,7 +27,7 @@ public class DecimalToBinary {
 	}
 	public static void decimalToBinary(int inputNumber){
 
-		int binaryNumber[] = new int[900];
+		int binaryNumber[] = new int[999];
 		int index = 0;
 
 		while (inputNumber >0){
