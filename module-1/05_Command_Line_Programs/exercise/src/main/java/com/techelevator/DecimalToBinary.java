@@ -34,8 +34,8 @@ public class DecimalToBinary {
 
 			binaryNumber[index ++] = inputNumber % 2 ;
 			inputNumber = inputNumber / 2;
-		}
-		for(int i = index-1;i >= 0;i--) {
+
+		} for(int i = index-1;i >= 0;i--) {
 			System.out.print(binaryNumber[i]);
 
 

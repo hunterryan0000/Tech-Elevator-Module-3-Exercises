@@ -1,5 +1,6 @@
 package com.techelevator;
 
+import javax.print.DocFlavor;
 import java.util.Scanner;
 
 public class Fibonacci {
@@ -8,8 +9,8 @@ public class Fibonacci {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
-		int fib2=1;
-		int fibonacci=1;
+		int fib2 = 0;
+		int fibonacci = 1;
 		int fib1;
 
 		System.out.print("Please enter a number: ");
@@ -17,21 +18,21 @@ public class Fibonacci {
 
 		System.out.println();
 
-		System.out.println("The Fibonacci numbers leading up to " + NUMBER + " are: ");
+		System.out.println("The Fibonacci numbers are: ");
 
-		 if(NUMBER>1) {
-			 System.out.print("0 1 1 ");
 
-			for(fib1=1; fib1+fib2 < NUMBER;) {
-				fibonacci = fib1 + fib2;
-				fib1 = fib2;
-				fib2 = fibonacci;
-				System.out.print(fibonacci + " ");
-			}
 
+		for (fib1 = 1; fib2 <= NUMBER; fib1++) {
+			fib1 = fib2;
+			fib2 = fibonacci;
+			fibonacci = fib1 + fib2;
+			System.out.print(fib1 + " ");
+		} if (NUMBER == 0) {
+			System.out.print("1");
 		}
 
-			scanner.close();
-	}
 
+		scanner.close();
+	}
 }
+

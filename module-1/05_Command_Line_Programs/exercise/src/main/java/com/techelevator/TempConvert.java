@@ -22,15 +22,14 @@ public class TempConvert {
 
 		double tempC = (temp - 32) / 1.8;
 		double tempF = temp * 1.8 + 32;
-		
 
-			if (whichIsIt.equals("F")) {
+
+		if (whichIsIt.equals("F")) {
 				System.out.println(temp + whichIsIt + " is " + tempC + "C");
-		} 	else if (whichIsIt.equals("C")) {
+			} 	else if (whichIsIt.equals("C")) {
 				System.out.println(temp + whichIsIt + " is " + tempF + "F");
 			}
 		System.out.println("\n \nYay for conversions! Woooo!!!!");
-
 
 
 			scanner.close();
