@@ -33,6 +33,9 @@ Class lectures are recorded each day and links will be posted here once availabl
 - Day 5
     - [Full Lecture](https://techelevator.zoom.us/rec/share/MDivs2gNDFglOxg9malqsYPCZyoVBCh6lR2D59bDdmydL8XGBLPzKs_fxL0dW7CZ.UAb5ks263QVoe3CD?startTime=1642776451000)
 
-- Day 6
+- Day 6 (Week 2)
     - [Git Merge Conflict Resolution](https://techelevator.zoom.us/rec/share/GHhzFxM_6sp2wg9xItP8J65bRnoLakLLd4wkuoYZnRNOwnAohmtL5AAETKLPQBPV.RKxZrmKONBdX0fVY?startTime=1643035821000)
     - [Object Intro](https://techelevator.zoom.us/rec/share/GHhzFxM_6sp2wg9xItP8J65bRnoLakLLd4wkuoYZnRNOwnAohmtL5AAETKLPQBPV.RKxZrmKONBdX0fVY?startTime=1643040748000)
+
+- Day 7 
+    - [Full lecture](https://techelevator.zoom.us/rec/share/P6-tyJ0W15syPIzIig4lJfvCHlmu0l04oqnDVDUOJ4_A4dARjEMM2nQvNM23_OxV.anO39EeJ_NJvyxlU?startTime=1643122147000)
