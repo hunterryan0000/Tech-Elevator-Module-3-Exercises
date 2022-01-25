@@ -9,7 +9,7 @@ public class Tutorial {
         // ***********  Step 1: Use the *new* operator to create Strings on the Heap  *************
 
         // Create a new string from an array of characters
-        char[] helloChars = new char[] {'h', 'e', 'l', 'l', 'o', '!'};
+        char[] helloChars = new char[] {'R', 'Y', 'A', 'N'};
         String greeting = new String(helloChars);
         System.out.println("Greeting: " + greeting);
 

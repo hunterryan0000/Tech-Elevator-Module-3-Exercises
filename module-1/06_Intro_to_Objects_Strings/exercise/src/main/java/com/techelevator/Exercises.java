@@ -1,5 +1,7 @@
 package com.techelevator;
 
+import java.util.Scanner;
+
 public class Exercises {
 
 	/*
@@ -9,7 +11,7 @@ public class Exercises {
 	 helloName("X") → "Hello X!"
 	 */
 	public String helloName(String name) {
-		return null;
+		return "Hello " + name + "!";
 	}
 
 	/*
@@ -20,7 +22,7 @@ public class Exercises {
 	 makeAbba("What", "Up") → "WhatUpUpWhat"
 	 */
 	public String makeAbba(String a, String b) {
-		return null;
+		return a + b + b + a;
 	}
 
 	/*
@@ -32,7 +34,7 @@ public class Exercises {
 	 makeTags("cite", "Yay") → "<cite>Yay</cite>"
 	 */
 	public String makeTags(String tag, String word) {
-		return null;
+		return "<"+tag+">"+word+"</"+tag+">";
 	}
 
 	/*
@@ -44,7 +46,7 @@ public class Exercises {
 	 makeOutWord("[[]]", "word") → "[[word]]"
 	 */
 	public String makeOutWord(String out, String word) {
-		return null;
+		return  (out.substring(0,2) +word+out.substring(2,4));
 	}
 
 	/*
@@ -55,7 +57,8 @@ public class Exercises {
 	 extraEnd("Hi") → "HiHiHi"
 	 */
 	public String extraEnd(String str) {
-		return null;
+		String newString = str.substring(str.length()-2);
+		return newString+newString+newString;
 	}
 
 	/*
@@ -67,7 +70,10 @@ public class Exercises {
 	 firstTwo("ab") → "ab"
 	 */
 	public String firstTwo(String str) {
-		return null;
+		if (str.length() >= 2) {
+			return str.substring(0, 2);
+		}
+		return str;
 	}
 
 	/*
@@ -77,7 +83,7 @@ public class Exercises {
 	 firstHalf("abcdef") → "abc"
 	 */
 	public String firstHalf(String str) {
-		return null;
+		return str.substring(0, str.length()/2);
 	}
 
 	/*
@@ -88,7 +94,7 @@ public class Exercises {
 	 withoutEnd("coding") → "odin"
 	 */
 	public String withoutEnd(String str) {
-		return null;
+		return str.substring(1, str.length()-1);
 	}
 
 	/*
@@ -100,7 +106,9 @@ public class Exercises {
 	 comboString("aaa", "b") → "baaab"
 	 */
 	public String comboString(String a, String b) {
-		return null;
+		if (a.length() < b.length()){
+			return a + b + a;
+		} return b+a+b;
 	}
 
 	/*
@@ -111,7 +119,8 @@ public class Exercises {
 	 nonStart("shotl", "java") → "hotlava"
 	 */
 	public String nonStart(String a, String b) {
-		return null;
+		return a.substring( 1, a.length()).concat(b.substring( 1, b.length()));
+
 	}
 
 	/*
@@ -122,7 +131,7 @@ public class Exercises {
 	 left2("Hi") → "Hi"
 	 */
 	public String left2(String str) {
-		return null;
+		return str.substring(2, str.length()) + str.substring(0, 2);
 	}
 
 	/*
@@ -133,7 +142,7 @@ public class Exercises {
 	 right2("Hi") → "Hi"
 	 */
 	public String right2(String str) {
-		return null;
+		return str.substring(str.length() -2) + str.substring(0, str.length() -2);
 	}
 
 	/*
@@ -144,7 +153,9 @@ public class Exercises {
 	 theEnd("oh", true) → "o"
 	 */
 	public String theEnd(String str, boolean front) {
-		return null;
+		if (!front)
+		return str.substring(str.length()-1);
+		return str.substring(0, 1);
 	}
 
 	/*
@@ -155,7 +166,11 @@ public class Exercises {
 	 withoutEnd2("ab") → ""
 	 */
 	public String withoutEnd2(String str) {
-		return null;
+		int length = str.length();
+		if (length <3) {
+			return "";
+		}
+		return str.substring(1, str.length()-1);
 	}
 
 	/*
@@ -166,7 +181,8 @@ public class Exercises {
 	 middleTwo("Practice") → "ct"
 	 */
 	public String middleTwo(String str) {
-		return null;
+		int length = str.length() / 2;
+		return str.substring(length-1, length+1);
 	}
 
 	/*
@@ -330,3 +346,4 @@ public class Exercises {
 	}
 
 }
+
