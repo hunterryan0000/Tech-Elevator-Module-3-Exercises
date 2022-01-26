@@ -39,3 +39,7 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 - Day 7 
     - [Full lecture](https://techelevator.zoom.us/rec/share/P6-tyJ0W15syPIzIig4lJfvCHlmu0l04oqnDVDUOJ4_A4dARjEMM2nQvNM23_OxV.anO39EeJ_NJvyxlU?startTime=1643122147000)
+
+- Day 8
+    - [Collections Review](https://techelevator.zoom.us/rec/share/BVf5uia0xvO3YmvdMQ7RF4ynl4vA5zjBrJ0yu5n6C0fQDOGYvTrvleE1ZY4uT1k.hRa-TlMU-uQYxxLL?startTime=1643207939000)
+    - [Maps](https://techelevator.zoom.us/rec/share/BVf5uia0xvO3YmvdMQ7RF4ynl4vA5zjBrJ0yu5n6C0fQDOGYvTrvleE1ZY4uT1k.hRa-TlMU-uQYxxLL?startTime=1643214203000)
