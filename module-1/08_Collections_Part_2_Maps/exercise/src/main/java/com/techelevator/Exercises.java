@@ -59,7 +59,7 @@ public class Exercises {
 		} else {
 			return "unknown";
 		}
-			return name;
+		return name;
 	}
 
 
@@ -102,7 +102,7 @@ public class Exercises {
 		}
 		if (onSaleMap.get(itemNumber.toUpperCase()) != null) {
 			number = onSaleMap.get(itemNumber.toUpperCase());
-		} else if (itemNumber.isEmpty()){
+		} else if (itemNumber.isEmpty()) {
 			return number;
 		}
 		return number;
@@ -170,9 +170,10 @@ public class Exercises {
 	 */
 	public Map<String, String> beginningAndEnding(String[] words) {
 		Map<String, String> bAndG = new TreeMap<>();
-		for (int i = 0; i <= words.length-1; i++) {
-			bAndG.put(words[i].charAt(0) + "", words[i].charAt(words[i].length()-1) + "");
-		} return bAndG;
+		for (int i = 0; i <= words.length - 1; i++) {
+			bAndG.put(words[i].charAt(0) + "", words[i].charAt(words[i].length() - 1) + "");
+		}
+		return bAndG;
 	}
 
 	/*
@@ -188,7 +189,7 @@ public class Exercises {
 	 *
 	 */
 	public Map<String, Integer> wordCount(String[] words) {
-		Map<String, Integer>Count = new HashMap<String, Integer>();
+		Map<String, Integer> Count = new HashMap<String, Integer>();
 
 		for (String letters : words) {
 
@@ -198,9 +199,9 @@ public class Exercises {
 				Count.put(letters, 1);
 			}
 		}
-			return Count;
+		return Count;
 
-}
+	}
 
 	/*
 	 * Given an array of int values, return a Map<Integer, Integer> with a key for each int, with the value the
@@ -236,7 +237,16 @@ public class Exercises {
 	 *
 	 */
 	public Map<String, Boolean> wordMultiple(String[] words) {
-		return null;
+		Map<String, Boolean> multipleTimes = new TreeMap<>();
+		for (String multiples : words) {
+
+			if (multipleTimes.containsKey(multiples)) {
+				multipleTimes.put(multiples, true);
+			} else {
+				multipleTimes.put(multiples, false);
+			}
+		}
+		return multipleTimes;
 	}
 
 	/*
@@ -250,8 +260,17 @@ public class Exercises {
 	 *
 	 */
 	public Map<String, Integer> consolidateInventory(Map<String, Integer> mainWarehouse,
-			Map<String, Integer> remoteWarehouse) {
-		return null;
+													 Map<String, Integer> remoteWarehouse) {
+
+		Set<String> warehouseKeys = remoteWarehouse.keySet();
+		for (String keys : warehouseKeys) {
+			if (!mainWarehouse.containsKey(keys)) {
+				mainWarehouse.put(keys, remoteWarehouse.get(keys));
+			} else {
+				mainWarehouse.put(keys, remoteWarehouse.get(keys) + mainWarehouse.get(keys));
+			}
+		}
+		return mainWarehouse;
 	}
 
 	/*
@@ -270,7 +289,24 @@ public class Exercises {
 	 *
 	 */
 	public Map<String, Integer> last2Revisited(String[] words) {
-		return null;
-	}
 
+		Map<String, Integer> lastTwo = new HashMap<>();
+
+
+		for (String revisited : words) {
+
+			int count = 0;
+			String letters = revisited.substring(revisited.length() - 2);
+
+			for (int i = 0; i < revisited.length() - 2; i++) {
+				if (revisited.substring(i, i + 2).equals(letters)) {
+					count++;
+				}
+				lastTwo.put(revisited, count);
+			}
+
+
+		}
+		return lastTwo;
+	}
 }
