@@ -1,7 +1,9 @@
 package com.techelevator;
 
-import java.util.HashMap;
+import java.lang.invoke.StringConcatFactory;
+import java.util.*;
 import java.util.Map;
+import java.util.HashMap;
 
 public class Exercises {
 
@@ -34,8 +36,32 @@ public class Exercises {
 	 *
 	 */
 	public String animalGroupName(String animalName) {
-		return null;
+		Map<String, String> animalMap = new TreeMap<String, String>();
+
+		animalMap.put("rhino", "Crash");
+		animalMap.put("giraffe", "Tower");
+		animalMap.put("elephant", "Herd");
+		animalMap.put("lion", "Pride");
+		animalMap.put("crow", "Murder");
+		animalMap.put("pigeon", "Kit");
+		animalMap.put("flamingo", "Pat");
+		animalMap.put("deer", "Herd");
+		animalMap.put("dog", "Pack");
+		animalMap.put("crocodile", "Float");
+
+		String name = "";
+
+		if (animalName == null) {
+			return "unknown";
+		}
+		if (animalMap.get(animalName.toLowerCase()) != null) {
+			name = animalMap.get(animalName.toLowerCase());
+		} else {
+			return "unknown";
+		}
+			return name;
 	}
+
 
 	/*
 	 * Given an String item number (a.k.a. SKU), return the discount percentage if the item is on sale.
@@ -60,7 +86,26 @@ public class Exercises {
 	 *
 	 */
 	public double isItOnSale(String itemNumber) {
-		return -1.0;
+		Map<String, Double> onSaleMap = new TreeMap<String, Double>();
+
+		onSaleMap.put("KITCHEN4001", 0.20);
+		onSaleMap.put("GARAGE1070", 0.15);
+		onSaleMap.put("LIVINGROOM", 0.10);
+		onSaleMap.put("KITCHEN6073", 0.40);
+		onSaleMap.put("BEDROOM3434", 0.60);
+		onSaleMap.put("BATH0073", 0.15);
+
+		Double number = 0.00;
+
+		if (itemNumber == null) {
+			return number;
+		}
+		if (onSaleMap.get(itemNumber.toUpperCase()) != null) {
+			number = onSaleMap.get(itemNumber.toUpperCase());
+		} else if (itemNumber.isEmpty()){
+			return number;
+		}
+		return number;
 	}
 
 	/*
@@ -74,7 +119,18 @@ public class Exercises {
 	 *
 	 */
 	public Map<String, Integer> robPeterToPayPaul(Map<String, Integer> peterPaul) {
-		return null;
+
+		Integer peterToPaul = ((peterPaul.get("Peter")) / 2);
+		Integer paul = peterPaul.get("Paul");
+		Integer peter = peterPaul.get("Peter");
+
+		if (peter > 0 && paul < 1000) {
+			peterPaul.put("Paul", (paul + peterToPaul));
+			peterPaul.put("Peter", peter - peterToPaul);
+		} else {
+			return peterPaul;
+		}
+		return peterPaul;
 	}
 
 	/*
@@ -87,7 +143,21 @@ public class Exercises {
 	 *
 	 */
 	public Map<String, Integer> peterPaulPartnership(Map<String, Integer> peterPaul) {
-		return null;
+		Integer peterPP = ((peterPaul.get("Peter")) / 4);
+		Integer pPPaul = ((peterPaul.get("Paul")) / 4);
+		Integer paul = peterPaul.get("Paul");
+		Integer peter = peterPaul.get("Peter");
+		Integer peterPaulPartnership = peterPP + pPPaul;
+
+		if (peter >= 5000 && paul >= 10000) {
+			peterPaul.put("Paul", (paul - pPPaul));
+			peterPaul.put("Peter", (peter - peterPP));
+			peterPaul.put("PeterPaulPartnership", peterPaulPartnership);
+
+		} else {
+			return peterPaul;
+		}
+		return peterPaul;
 	}
 
 	/*
@@ -99,7 +169,10 @@ public class Exercises {
 	 * beginningAndEnding(["muddy", "good", "moat", "good", "night"]) → {"g": "d", "m": "t", "n": "t"}
 	 */
 	public Map<String, String> beginningAndEnding(String[] words) {
-		return null;
+		Map<String, String> bAndG = new TreeMap<>();
+		for (int i = 0; i <= words.length-1; i++) {
+			bAndG.put(words[i].charAt(0) + "", words[i].charAt(words[i].length()-1) + "");
+		} return bAndG;
 	}
 
 	/*
@@ -115,8 +188,19 @@ public class Exercises {
 	 *
 	 */
 	public Map<String, Integer> wordCount(String[] words) {
-		return null;
-	}
+		Map<String, Integer>Count = new HashMap<String, Integer>();
+
+		for (String letters : words) {
+
+			if (Count.containsKey(letters)) {
+				Count.put(letters, (Count.get(letters)) + 1);
+			} else {
+				Count.put(letters, 1);
+			}
+		}
+			return Count;
+
+}
 
 	/*
 	 * Given an array of int values, return a Map<Integer, Integer> with a key for each int, with the value the
@@ -130,7 +214,16 @@ public class Exercises {
 	 *
 	 */
 	public Map<Integer, Integer> integerCount(int[] ints) {
-		return null;
+		Map<Integer, Integer> count = new TreeMap<>();
+		for (int numbers : ints) {
+
+			if (count.containsKey(numbers)) {
+				count.put(numbers, (count.get(numbers)) + 1);
+			} else {
+				count.put(numbers, 1);
+			}
+		}
+		return count;
 	}
 
 	/*

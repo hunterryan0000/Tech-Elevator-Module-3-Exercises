@@ -131,7 +131,7 @@ public class Exercises {
 	public List<String> fizzBuzzList(Integer[] integerArray) {
 		ArrayList<String> fizzBuzz = new ArrayList<String>();
 
-		for (int numbers : integerArray)
+		for (Integer numbers : integerArray)
 			if (numbers % 3 == 0 && numbers % 5 == 0) {
 				fizzBuzz.add("FizzBuzz");
 			} else if (numbers % 3 == 0) {
@@ -139,7 +139,7 @@ public class Exercises {
 			} else if (numbers % 5 == 0) {
 				fizzBuzz.add("Buzz");
 			} else {
-				fizzBuzz.add(String.valueOf(numbers));
+				fizzBuzz.add(numbers.toString());
 			}
 		return fizzBuzz;
 	}
