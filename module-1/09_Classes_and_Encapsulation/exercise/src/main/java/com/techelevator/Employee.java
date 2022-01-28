@@ -39,7 +39,7 @@ public class Employee {
     }
 
     public double getAnnualSalary() {
-        return annualSalary * 1.055;
+        return annualSalary;
     }
 
     public Employee(int employeeId, String firstName, String lastName, double annualSalary) {
@@ -50,7 +50,8 @@ public class Employee {
     }
 
         public void raiseSalary (double percent) {
-            return;
+            double raised = annualSalary * Math.abs(5.5 / 100.00);
+            annualSalary += raised;
         }
 
 
