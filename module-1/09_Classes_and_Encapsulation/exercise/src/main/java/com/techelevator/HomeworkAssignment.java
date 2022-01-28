@@ -6,7 +6,7 @@ public class HomeworkAssignment {
     private int earnedMarks;
     private int possibleMarks;
     private String submitterName;
-    private String letterGrade;
+//    private String letterGrade;
 
     // constructor
 
@@ -35,17 +35,15 @@ public class HomeworkAssignment {
     }
 
     public String getLetterGrade() {
-            int grade = earnedMarks / possibleMarks;
+            double grade = (double) earnedMarks / possibleMarks;
 
-            if (grade == 100) {
-                return "100";
-            } else if (grade >= 90) {
+            if (grade >= .9) {
                 return "A";
-            } else if (grade >= 80) {
+            } else if (grade >= .8) {
                 return "B";
-            } else if (grade >= 70) {
+            } else if (grade >= .7) {
                 return "C";
-            } else if (grade >= 60) {
+            } else if (grade >= .6) {
                 return "D";
             }
             {

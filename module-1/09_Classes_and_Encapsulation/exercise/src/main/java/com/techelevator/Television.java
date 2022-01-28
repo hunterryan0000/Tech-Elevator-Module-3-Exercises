@@ -47,21 +47,19 @@ public class Television {
             }
         }
     public void channelDown(){
-        if(isOn) {
+        if (isOn) {
             if (currentChannel == 3) {
+                currentChannel = 18;
+            } else {
                 currentChannel--;
             }
-            currentChannel = 18;
         }
-        isOn = false;
 
     }
     public void raiseVolume(){
         if (isOn && currentVolume < 10) {
             currentVolume++;
         }
-        isOn = false;
-
     }
 
     public void lowerVolume(){
@@ -69,8 +67,6 @@ public class Television {
         if (isOn && currentVolume > 0) {
             currentVolume--;
         }
-        isOn = false;
-
     }
 
 }
