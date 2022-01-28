@@ -12,12 +12,12 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 ### Module 1
 
+#### Week 1
 - Day 1 
     - [Staff Intros](https://techelevator.zoom.us/rec/share/SnxMoNyr3K0RKQqfyyxBhpHIWXY7eqyf91ARoaRCO0IEulfKnkoiRG_VQU7ULQrd.hji8RgloBdzWL9R5?startTime=1642427204000)
     - [Expectations & Best Practices](https://techelevator.zoom.us/rec/share/SnxMoNyr3K0RKQqfyyxBhpHIWXY7eqyf91ARoaRCO0IEulfKnkoiRG_VQU7ULQrd.hji8RgloBdzWL9R5?startTime=1642433280000)
     - [Intro to Tools (pt1 - Online stuff)](https://techelevator.zoom.us/rec/share/AszLjjHPnRYbsi65-lQW0XsE47QrmM3vfCCovySyCuuBO4kJ9ChCSK8qnsALrLhQ.MxWA8mraTWhLAxUN?startTime=1642442904000)
     - [Intro to Tools (pt2 - Commands)](https://techelevator.zoom.us/rec/share/AszLjjHPnRYbsi65-lQW0XsE47QrmM3vfCCovySyCuuBO4kJ9ChCSK8qnsALrLhQ.MxWA8mraTWhLAxUN?startTime=1642449932000)
-
 
 - Day 2
     - [Review Windows Terminal, VS Code, git](https://techelevator.zoom.us/rec/share/EmThean-h23DpJeD3ySz719rLOcC56WZlHMbtJZEY-kZgDxF76xKSaCjNva7T3e4.TVUVCQ_IBq97MZVx?startTime=1642516977000)
@@ -33,7 +33,8 @@ Class lectures are recorded each day and links will be posted here once availabl
 - Day 5
     - [Full Lecture](https://techelevator.zoom.us/rec/share/MDivs2gNDFglOxg9malqsYPCZyoVBCh6lR2D59bDdmydL8XGBLPzKs_fxL0dW7CZ.UAb5ks263QVoe3CD?startTime=1642776451000)
 
-- Day 6 (Week 2)
+#### Week 2
+- Day 6 
     - [Git Merge Conflict Resolution](https://techelevator.zoom.us/rec/share/GHhzFxM_6sp2wg9xItP8J65bRnoLakLLd4wkuoYZnRNOwnAohmtL5AAETKLPQBPV.RKxZrmKONBdX0fVY?startTime=1643035821000)
     - [Object Intro](https://techelevator.zoom.us/rec/share/GHhzFxM_6sp2wg9xItP8J65bRnoLakLLd4wkuoYZnRNOwnAohmtL5AAETKLPQBPV.RKxZrmKONBdX0fVY?startTime=1643040748000)
 
@@ -46,3 +47,10 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 - Day 9
     - [Full lecture](https://techelevator.zoom.us/rec/share/bNTyf_WZO8GdSva_6novzKQkIxjlBqGDOQz5plIkSr8lKnxVvhVejXfAo0GNfb4r.Px5JYdTc0D8WNJw5?startTime=1643295298000)
+
+- Day 10
+    -[Full lecture](https://techelevator.zoom.us/rec/share/kdAD0QU1pEm0WT1pA4xiWjwdVoWLPbJMld0VjSa1Eim-KDCy8bX050E6tgZ4BXD2.T1PkztieS8PD81BG?startTime=1643381241000)
+
+#### Week 3
+
+- Coming Soon ^.^

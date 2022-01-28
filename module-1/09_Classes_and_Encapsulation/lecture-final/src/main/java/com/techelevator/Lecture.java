@@ -40,7 +40,6 @@ public class Lecture {
         //purpleShelter.setName("Green Shelter");
         System.out.printf("The shelter is called %s.\n", purpleShelter.getName());
 
-        System.out.println("Max shelter capacity is " + Shelter.MAX_CAPACITY);
 
 //        List<Pet> ourPets = new ArrayList<>();
 //        ourPets.add(pet2);
@@ -55,5 +54,20 @@ public class Lecture {
         for (Pet pet : shelterPets) {
             System.out.println(pet.getName());
         }
+
+        //Can access public properties directly from outside the class
+        // Generally this is only done for constants.
+        System.out.println("Shelter capacity is " + Shelter.MAX_CAPACITY);
+        // Can access from an instance/object BUT it is not a good practice so DON'T DO IT!
+        System.out.println(purpleShelter.MAX_CAPACITY);
+
+        // I can't change it by setting the property directly
+        //kyo.name = "Can't do this";
+        // I can change the private name through the setter
+        kyo.setName("Kyo is Awesome");
+
+        // The ShelterApp constructor is private, I SHOULD NOT do this.
+        // (It won't compile unless you change the access modifier.)
+        //ShelterApp test = new ShelterApp();
     }
 }

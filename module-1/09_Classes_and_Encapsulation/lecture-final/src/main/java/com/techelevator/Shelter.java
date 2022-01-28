@@ -8,6 +8,7 @@ public class Shelter {
     // Because this is static, it also means ALL shelters have the same capacity
     public static final int MAX_CAPACITY = 10;
 
+
     private String name;
     private String phone;
     private String address;
@@ -53,7 +54,7 @@ public class Shelter {
         return petList.toArray(new Pet[0]);
     }
 
-    // Be careful about setting your data as a refernce that you take in,
+    // Be careful about setting your data as a reference that you take in,
     // they may still have a remote control to change it
     // Again making a copy to store can help, addElement method instead of setList
 //    public void setPetList(List<Pet> petList) {
