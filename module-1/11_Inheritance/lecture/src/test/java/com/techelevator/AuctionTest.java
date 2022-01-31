@@ -4,7 +4,8 @@ import static org.junit.Assert.*;
 
 import java.util.List;
 
-import org.junit.Assert;
+import com.techelevator.auction.Auction;
+import com.techelevator.auction.Bid;
 import org.junit.Test;
 import org.junit.FixMethodOrder;
 import org.junit.runners.MethodSorters;

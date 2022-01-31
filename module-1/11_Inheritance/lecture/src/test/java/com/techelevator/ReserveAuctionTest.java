@@ -2,6 +2,7 @@ package com.techelevator;
 
 import static org.junit.Assert.*;
 
+import com.techelevator.auction.Bid;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.FixMethodOrder;

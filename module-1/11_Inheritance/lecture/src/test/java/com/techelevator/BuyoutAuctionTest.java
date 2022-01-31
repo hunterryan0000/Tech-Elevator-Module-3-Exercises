@@ -1,5 +1,6 @@
 package com.techelevator;
 
+import com.techelevator.auction.Bid;
 import org.junit.BeforeClass;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
@@ -21,9 +22,9 @@ public class BuyoutAuctionTest {
 	@BeforeClass
 	public static void classShouldExist() {
 		try {
-			clazz = Class.forName("com.techelevator.BuyoutAuction");
+			clazz = Class.forName("com.techelevator.auction.BuyoutAuction");
 		} catch (Exception e) {
-			fail("com.techelevator.BuyoutAuction class does not exist");
+			fail("com.techelevator.auction.BuyoutAuction class does not exist");
 		}
 	}
 
