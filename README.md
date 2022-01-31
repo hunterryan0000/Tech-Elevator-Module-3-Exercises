@@ -53,4 +53,6 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 #### Week 3
 
-- Coming Soon ^.^
+- Day 11 
+    - First Part (Review)[https://techelevator.zoom.us/rec/share/tE3AIwxHXTlX7hqITgxH7r31rgJfmLg5zZhF-6uX2X2araOBlPER3mcuGDxFGfs.HTp0XNVXI9K_iQqk?startTime=1643639989000]
+    - Second Part (Inheritance)[https://techelevator.zoom.us/rec/share/tE3AIwxHXTlX7hqITgxH7r31rgJfmLg5zZhF-6uX2X2araOBlPER3mcuGDxFGfs.HTp0XNVXI9K_iQqk?startTime=1643644812000]
