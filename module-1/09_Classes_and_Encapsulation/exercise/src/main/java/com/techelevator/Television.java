@@ -36,12 +36,10 @@ public class Television {
     }
     public void channelUp(){
 
-            if (isOn)
-            {
+            if (isOn) {
                 currentChannel++;
 
-                if (currentChannel > 18)
-                {
+                if (currentChannel > 18) {
                     currentChannel = 3;
                 }
             }
