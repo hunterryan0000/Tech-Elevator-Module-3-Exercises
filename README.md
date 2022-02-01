@@ -56,3 +56,7 @@ Class lectures are recorded each day and links will be posted here once availabl
 - Day 11 
     - First Part (Review)[https://techelevator.zoom.us/rec/share/tE3AIwxHXTlX7hqITgxH7r31rgJfmLg5zZhF-6uX2X2araOBlPER3mcuGDxFGfs.HTp0XNVXI9K_iQqk?startTime=1643639989000]
     - Second Part (Inheritance)[https://techelevator.zoom.us/rec/share/tE3AIwxHXTlX7hqITgxH7r31rgJfmLg5zZhF-6uX2X2araOBlPER3mcuGDxFGfs.HTp0XNVXI9K_iQqk?startTime=1643644812000]
+
+- Day 12
+    - [First Part](https://techelevator.zoom.us/rec/share/bUtU2GJFOtT8AGq9sVfuxKIYIcCRukqU7cmwf89h_x4fIxUkir8PIvZ6CGFY8G4.6XmSJWPOy4tzTSE-?startTime=1643727323000)
+    - [Second Part (last 35 min)](https://techelevator.zoom.us/rec/share/bUtU2GJFOtT8AGq9sVfuxKIYIcCRukqU7cmwf89h_x4fIxUkir8PIvZ6CGFY8G4.6XmSJWPOy4tzTSE-?startTime=1643736734000)
