@@ -60,3 +60,6 @@ Class lectures are recorded each day and links will be posted here once availabl
 - Day 12
     - [First Part](https://techelevator.zoom.us/rec/share/bUtU2GJFOtT8AGq9sVfuxKIYIcCRukqU7cmwf89h_x4fIxUkir8PIvZ6CGFY8G4.6XmSJWPOy4tzTSE-?startTime=1643727323000)
     - [Second Part (last 35 min)](https://techelevator.zoom.us/rec/share/bUtU2GJFOtT8AGq9sVfuxKIYIcCRukqU7cmwf89h_x4fIxUkir8PIvZ6CGFY8G4.6XmSJWPOy4tzTSE-?startTime=1643736734000)
+
+- Day 13
+    - [Full Lecture](https://techelevator.zoom.us/rec/share/CSTqOjra-LnABaDSiGDrRDp9lrNUGB2PQSP_HlwYmn-fq2FjepPp6KldeaMXNo53.EijnLHJvspezX9Tn?startTime=1643813513000)
