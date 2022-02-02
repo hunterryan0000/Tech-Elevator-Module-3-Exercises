@@ -49,7 +49,7 @@ Class lectures are recorded each day and links will be posted here once availabl
     - [Full lecture](https://techelevator.zoom.us/rec/share/bNTyf_WZO8GdSva_6novzKQkIxjlBqGDOQz5plIkSr8lKnxVvhVejXfAo0GNfb4r.Px5JYdTc0D8WNJw5?startTime=1643295298000)
 
 - Day 10
-    -[Full lecture](https://techelevator.zoom.us/rec/share/kdAD0QU1pEm0WT1pA4xiWjwdVoWLPbJMld0VjSa1Eim-KDCy8bX050E6tgZ4BXD2.T1PkztieS8PD81BG?startTime=1643381241000)
+    - [Full lecture](https://techelevator.zoom.us/rec/share/kdAD0QU1pEm0WT1pA4xiWjwdVoWLPbJMld0VjSa1Eim-KDCy8bX050E6tgZ4BXD2.T1PkztieS8PD81BG?startTime=1643381241000)
 
 #### Week 3
 
