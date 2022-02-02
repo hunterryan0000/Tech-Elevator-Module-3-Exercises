@@ -1,7 +1,7 @@
 package com.techelevator.farm;
 
 // Adding in the Singable interface - FarmAnimals have the required getName() & getSound() methods
-public class FarmAnimal implements Singable {
+public abstract class FarmAnimal implements Singable {
 
 	// Remember to keep your object properties private
 	// This is the "state" of your object, and you want to

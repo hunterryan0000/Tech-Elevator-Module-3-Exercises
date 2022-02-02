@@ -7,15 +7,14 @@ import java.util.List;
 public class OldMacdonald {
 	public static void main(String[] args) {
 
+
+		OldMacdonald app = new OldMacdonald();
+
+		app.singSong();
 		// Old MacDonald want the song to play first everytime this program starts
 		// (He's so cute!)
-		List<Singable> singableList = new ArrayList<>();
-		singableList.add(new Cow());
-		singableList.add(new Chicken());
-		singableList.add(new Tractor());
-		singableList.add(new Pig());
-
-		singSong(singableList);
+//		List<Singable> singableList = getSingables();
+//		singSong(singableList);
 
 		// Then we can get down to business and deal with the money & stuff
 		List<Sellable> itemsToSell = new ArrayList<>();
@@ -35,6 +34,15 @@ public class OldMacdonald {
 		// Just some notes, no need to run this now, but
 		// wanted to keep for your reference later...
 		//notes();
+	}
+
+	private static List<Singable> getSingables() {
+		List<Singable> singableList = new ArrayList<>();
+		singableList.add(new Cow());
+		singableList.add(new Chicken());
+		singableList.add(new Tractor());
+		singableList.add(new Pig());
+		return singableList;
 	}
 
 	private static void notes() {
@@ -74,7 +82,8 @@ public class OldMacdonald {
 		}
 	}
 
-	private static void singSong(List<Singable> singableList) {
+	private static void singSong() {
+		List<Singable> singableList = getSingables();
 		for (Singable singable : singableList) {
 			String name = singable.getName();
 			String sound = singable.getSound();

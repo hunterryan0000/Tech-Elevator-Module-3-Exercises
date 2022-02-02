@@ -1,5 +1,9 @@
 package com.techelevator.farm;
 
+/**
+ * This is the interface that allows us to sing about things on the farm.
+ * The things we sing about need a name and a sound.
+ */
 public interface Singable {
 
     // ALL methods in an interface are by default public & abstract
