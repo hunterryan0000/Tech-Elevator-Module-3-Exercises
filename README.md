@@ -63,3 +63,6 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 - Day 13
     - [Full Lecture](https://techelevator.zoom.us/rec/share/CSTqOjra-LnABaDSiGDrRDp9lrNUGB2PQSP_HlwYmn-fq2FjepPp6KldeaMXNo53.EijnLHJvspezX9Tn?startTime=1643813513000)
+
+- Day 14
+    - [Full Lecture](https://techelevator.zoom.us/rec/share/VVTExyVFKKok01iLg6MvpHLm2N5CfUW28Gqz-DHKXkEL0RT14Fb-d6VPwsocAuv4.qfMtNUpIiN7rvHlD?startTime=1643899979000)
