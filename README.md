@@ -66,3 +66,17 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 - Day 14
     - [Full Lecture](https://techelevator.zoom.us/rec/share/VVTExyVFKKok01iLg6MvpHLm2N5CfUW28Gqz-DHKXkEL0RT14Fb-d6VPwsocAuv4.qfMtNUpIiN7rvHlD?startTime=1643899979000)
+
+- Day 15
+    - [Design](https://techelevator.zoom.us/rec/share/27UCM242lR3ayzH5-yVjV0tL5KmSY_hixeQ5cU_yEyr2GgK6UkKH0Ce1-9LncXq9.SCbxcnNOeljQ3HwZ?startTime=1643987614000)
+    - [Build](https://techelevator.zoom.us/rec/share/27UCM242lR3ayzH5-yVjV0tL5KmSY_hixeQ5cU_yEyr2GgK6UkKH0Ce1-9LncXq9.SCbxcnNOeljQ3HwZ?startTime=1643990420000)
+
+#### Week 4
+
+- Day 16
+
+- Day 17
+
+- Day 18
+
+- Capstones!!!
