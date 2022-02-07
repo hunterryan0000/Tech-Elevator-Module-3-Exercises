@@ -74,6 +74,8 @@ Class lectures are recorded each day and links will be posted here once availabl
 #### Week 4
 
 - Day 16
+    - [Exceptions](https://techelevator.zoom.us/rec/share/2yRRDesHuywb4AQjeqbukoJlVhmSGgeIUte15xXeVacfuvnbNBRikfNKKMUCZl8q.sblgQ03qpq-LBGeo?startTime=1644245440000)
+    - [File I/O - Reading](https://techelevator.zoom.us/rec/share/2yRRDesHuywb4AQjeqbukoJlVhmSGgeIUte15xXeVacfuvnbNBRikfNKKMUCZl8q.sblgQ03qpq-LBGeo?startTime=1644251229000)
 
 - Day 17
 
