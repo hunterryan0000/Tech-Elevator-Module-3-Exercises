@@ -78,7 +78,15 @@ Class lectures are recorded each day and links will be posted here once availabl
     - [File I/O - Reading](https://techelevator.zoom.us/rec/share/2yRRDesHuywb4AQjeqbukoJlVhmSGgeIUte15xXeVacfuvnbNBRikfNKKMUCZl8q.sblgQ03qpq-LBGeo?startTime=1644251229000)
 
 - Day 17
+    - [Review/Intro - Exceptions & File/Abstraction](https://techelevator.zoom.us/rec/share/RQhmR712LZ7QhVCeKyQfjLKAYRuWrCcohhdgqHXcISrCvpleusRRKyKDzXzyOumk.ZgYGQml3ukVjXFlw?startTime=1644330760000)
+    - [File I/O - File System & File Class](https://techelevator.zoom.us/rec/share/RQhmR712LZ7QhVCeKyQfjLKAYRuWrCcohhdgqHXcISrCvpleusRRKyKDzXzyOumk.ZgYGQml3ukVjXFlw?startTime=1644335271000)
+    - [File I/O - Writing to a File](https://techelevator.zoom.us/rec/share/RQhmR712LZ7QhVCeKyQfjLKAYRuWrCcohhdgqHXcISrCvpleusRRKyKDzXzyOumk.ZgYGQml3ukVjXFlw?startTime=1644339885000)
 
 - Day 18
 
 - Capstones!!!
+
+### Module 2
+
+#### Week 5 
+
