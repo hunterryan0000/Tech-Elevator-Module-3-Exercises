@@ -22,10 +22,5 @@ public class WordCountTest {
         Assert.assertEquals(i, wordCountTest.getCount(testWordCount));
 
 
-
-
-
-
-
     }
 }
