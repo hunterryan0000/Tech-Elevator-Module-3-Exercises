@@ -83,6 +83,8 @@ Class lectures are recorded each day and links will be posted here once availabl
     - [File I/O - Writing to a File](https://techelevator.zoom.us/rec/share/RQhmR712LZ7QhVCeKyQfjLKAYRuWrCcohhdgqHXcISrCvpleusRRKyKDzXzyOumk.ZgYGQml3ukVjXFlw?startTime=1644339885000)
 
 - Day 18
+    - [Add DeliveryOrder](https://techelevator.zoom.us/rec/share/Gx7xLujd2aVZPhtemac64Ud73-CaKY1fNseH9axBF3yuh7gj2HSkAU7DVZXIDrIZ.5lwzx5qvWkZHiRzX?startTime=1644418274000)
+    - [Reporting & UI](https://techelevator.zoom.us/rec/share/Gx7xLujd2aVZPhtemac64Ud73-CaKY1fNseH9axBF3yuh7gj2HSkAU7DVZXIDrIZ.5lwzx5qvWkZHiRzX?startTime=1644421605000)
 
 - Capstones!!!
 
