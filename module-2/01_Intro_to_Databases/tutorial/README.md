@@ -11,6 +11,8 @@ You'll write your statements in **pgAdmin**. pgAdmin connects to a PostgreSQL da
 
 ## Getting started
 
+==> Note that instructions for creating the PizzaShop database referenced here are in the reading from [BootcampOS](https://lms.techelevator.com/content_link/gitlab.com/te-curriculum/intro-to-tools-lms/postgresql/03-database-setup.md).
+
 In pgAdmin, connect to PostgreSQL and expand the **Databases** node by double-clicking it or clicking the caret on its side. Locate the "PizzaShop" database in the list, and click the caret on its side to expand it. This establishes "PizzaShop" as the database for your statements to run on.
 
 Finally, click the **Query Tool** button to open the **Query Editor** which allows you to enter SQL statements—also known as queries:
