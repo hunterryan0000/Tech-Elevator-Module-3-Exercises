@@ -90,5 +90,8 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 ### Module 2
 
-#### Week 5 
+#### Week 5
+
+- Day 19
+    - [Intro to SQL](https://techelevator.zoom.us/rec/share/Hh9OQmgRSvlhNwFaPvJ7nyilpdqVMjQECzDUlacfjc_UAB1qWCBalH0mXlUa5I0W.-1FESBF1ypSvLYCd?startTime=1644936021000)
 
