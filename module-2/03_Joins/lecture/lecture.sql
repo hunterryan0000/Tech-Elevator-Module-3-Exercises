@@ -48,7 +48,7 @@
 
 
 
--- MovieDB
+-- MovieDB (for exercises)
 -- After creating the MovieDB database and running the setup script, make sure it is selected in DbVisualizer and confirm it is working correctly by writing queries to retrieve...
 
 -- The names of all the movie genres
