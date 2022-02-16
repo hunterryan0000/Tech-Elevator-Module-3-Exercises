@@ -95,3 +95,7 @@ Class lectures are recorded each day and links will be posted here once availabl
 - Day 19
     - [Intro to SQL](https://techelevator.zoom.us/rec/share/Hh9OQmgRSvlhNwFaPvJ7nyilpdqVMjQECzDUlacfjc_UAB1qWCBalH0mXlUa5I0W.-1FESBF1ypSvLYCd?startTime=1644936021000)
 
+- Day 20
+    - [Intro & Review Alias & Order By](https://techelevator.zoom.us/rec/share/3ykB1pbDc7xuhsl5F9zko2jQFtoJb511_tfrjPE7MbJtLsO0xrCPgzQBku8g-Qo3.xgiMMv-0AC0W8xEs?startTime=1645022668000)
+    - [Aggregate Functions](https://techelevator.zoom.us/rec/share/3ykB1pbDc7xuhsl5F9zko2jQFtoJb511_tfrjPE7MbJtLsO0xrCPgzQBku8g-Qo3.xgiMMv-0AC0W8xEs?startTime=1645026694000)
+    - [Aggregates & Group By](https://techelevator.zoom.us/rec/share/3ykB1pbDc7xuhsl5F9zko2jQFtoJb511_tfrjPE7MbJtLsO0xrCPgzQBku8g-Qo3.xgiMMv-0AC0W8xEs?startTime=1645030275000)
