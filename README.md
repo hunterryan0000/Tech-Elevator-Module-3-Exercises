@@ -99,3 +99,8 @@ Class lectures are recorded each day and links will be posted here once availabl
     - [Intro & Review Alias & Order By](https://techelevator.zoom.us/rec/share/3ykB1pbDc7xuhsl5F9zko2jQFtoJb511_tfrjPE7MbJtLsO0xrCPgzQBku8g-Qo3.xgiMMv-0AC0W8xEs?startTime=1645022668000)
     - [Aggregate Functions](https://techelevator.zoom.us/rec/share/3ykB1pbDc7xuhsl5F9zko2jQFtoJb511_tfrjPE7MbJtLsO0xrCPgzQBku8g-Qo3.xgiMMv-0AC0W8xEs?startTime=1645026694000)
     - [Aggregates & Group By](https://techelevator.zoom.us/rec/share/3ykB1pbDc7xuhsl5F9zko2jQFtoJb511_tfrjPE7MbJtLsO0xrCPgzQBku8g-Qo3.xgiMMv-0AC0W8xEs?startTime=1645030275000)
+
+- Day 21
+    - [Review & Intro](https://techelevator.zoom.us/rec/share/kvRW9F2zx07IUB1dD1wqJAoXv8DmuRzuo8SH1ZWmQmcoJYioxdQYcJrlW1AdUsi3.9mWYSgCfY32f0Ql4?startTime=1645109444000)
+    - [Joins](https://techelevator.zoom.us/rec/share/kvRW9F2zx07IUB1dD1wqJAoXv8DmuRzuo8SH1ZWmQmcoJYioxdQYcJrlW1AdUsi3.9mWYSgCfY32f0Ql4?startTime=1645114110000)
+    - [Left Join & Union](https://techelevator.zoom.us/rec/share/kvRW9F2zx07IUB1dD1wqJAoXv8DmuRzuo8SH1ZWmQmcoJYioxdQYcJrlW1AdUsi3.9mWYSgCfY32f0Ql4?startTime=1645117088000)
