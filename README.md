@@ -106,4 +106,6 @@ Class lectures are recorded each day and links will be posted here once availabl
     - [Left Join & Union](https://techelevator.zoom.us/rec/share/kvRW9F2zx07IUB1dD1wqJAoXv8DmuRzuo8SH1ZWmQmcoJYioxdQYcJrlW1AdUsi3.9mWYSgCfY32f0Ql4?startTime=1645117088000)
 
 - Day 22
-    - Coming Soon...
+    - [Insert](https://techelevator.zoom.us/rec/share/smsaqb_NG-Po4DoCq7AEYUbZz1Feyskv3c2CkKhodzNAsHkbz4R013f2jzTwRFM5.g_Ih_yV0HnhRS9PI?startTime=1645195833000)
+    - [Update, Delete & Constraints](https://techelevator.zoom.us/rec/share/smsaqb_NG-Po4DoCq7AEYUbZz1Feyskv3c2CkKhodzNAsHkbz4R013f2jzTwRFM5.g_Ih_yV0HnhRS9PI?startTime=1645199991000)
+    - [Transactions](https://techelevator.zoom.us/rec/share/smsaqb_NG-Po4DoCq7AEYUbZz1Feyskv3c2CkKhodzNAsHkbz4R013f2jzTwRFM5.g_Ih_yV0HnhRS9PI?startTime=1645203758000)
