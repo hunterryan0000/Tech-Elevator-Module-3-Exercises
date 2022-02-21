@@ -92,20 +92,25 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 #### Week 5
 
-- Day 19
+- Day 1
     - [Intro to SQL](https://techelevator.zoom.us/rec/share/Hh9OQmgRSvlhNwFaPvJ7nyilpdqVMjQECzDUlacfjc_UAB1qWCBalH0mXlUa5I0W.-1FESBF1ypSvLYCd?startTime=1644936021000)
 
-- Day 20
+- Day 2
     - [Intro & Review Alias & Order By](https://techelevator.zoom.us/rec/share/3ykB1pbDc7xuhsl5F9zko2jQFtoJb511_tfrjPE7MbJtLsO0xrCPgzQBku8g-Qo3.xgiMMv-0AC0W8xEs?startTime=1645022668000)
     - [Aggregate Functions](https://techelevator.zoom.us/rec/share/3ykB1pbDc7xuhsl5F9zko2jQFtoJb511_tfrjPE7MbJtLsO0xrCPgzQBku8g-Qo3.xgiMMv-0AC0W8xEs?startTime=1645026694000)
     - [Aggregates & Group By](https://techelevator.zoom.us/rec/share/3ykB1pbDc7xuhsl5F9zko2jQFtoJb511_tfrjPE7MbJtLsO0xrCPgzQBku8g-Qo3.xgiMMv-0AC0W8xEs?startTime=1645030275000)
 
-- Day 21
+- Day 3
     - [Review & Intro](https://techelevator.zoom.us/rec/share/kvRW9F2zx07IUB1dD1wqJAoXv8DmuRzuo8SH1ZWmQmcoJYioxdQYcJrlW1AdUsi3.9mWYSgCfY32f0Ql4?startTime=1645109444000)
     - [Joins](https://techelevator.zoom.us/rec/share/kvRW9F2zx07IUB1dD1wqJAoXv8DmuRzuo8SH1ZWmQmcoJYioxdQYcJrlW1AdUsi3.9mWYSgCfY32f0Ql4?startTime=1645114110000)
     - [Left Join & Union](https://techelevator.zoom.us/rec/share/kvRW9F2zx07IUB1dD1wqJAoXv8DmuRzuo8SH1ZWmQmcoJYioxdQYcJrlW1AdUsi3.9mWYSgCfY32f0Ql4?startTime=1645117088000)
 
-- Day 22
+- Day 4
     - [Insert](https://techelevator.zoom.us/rec/share/smsaqb_NG-Po4DoCq7AEYUbZz1Feyskv3c2CkKhodzNAsHkbz4R013f2jzTwRFM5.g_Ih_yV0HnhRS9PI?startTime=1645195833000)
     - [Update, Delete & Constraints](https://techelevator.zoom.us/rec/share/smsaqb_NG-Po4DoCq7AEYUbZz1Feyskv3c2CkKhodzNAsHkbz4R013f2jzTwRFM5.g_Ih_yV0HnhRS9PI?startTime=1645199991000)
     - [Transactions](https://techelevator.zoom.us/rec/share/smsaqb_NG-Po4DoCq7AEYUbZz1Feyskv3c2CkKhodzNAsHkbz4R013f2jzTwRFM5.g_Ih_yV0HnhRS9PI?startTime=1645203758000)
+
+#### Week 6
+
+- Day 6
+    - [DB Design](https://techelevator.zoom.us/rec/share/KY1oYiwRj-NbIBaG5Zu1l7y1-YvLj1OhOR2fr6tJTvyCT0UZrb3zUQHuHh1Tg3zx.lwgsX6RNTX1tC4YV?startTime=1645454804000)
