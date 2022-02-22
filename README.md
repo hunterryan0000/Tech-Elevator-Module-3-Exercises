@@ -114,3 +114,6 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 - Day 6
     - [DB Design](https://techelevator.zoom.us/rec/share/KY1oYiwRj-NbIBaG5Zu1l7y1-YvLj1OhOR2fr6tJTvyCT0UZrb3zUQHuHh1Tg3zx.lwgsX6RNTX1tC4YV?startTime=1645454804000)
+
+- Day 7
+    - [DAO Pattern](https://techelevator.zoom.us/rec/share/WZhafcEP2G5U0J3h0pFdYSYhpqbmfZdotqp36y87Hhi_I98x5UVuoYsr8ED3T7q2.Mm187NRy5gmY3G_9?startTime=1645541379000)
