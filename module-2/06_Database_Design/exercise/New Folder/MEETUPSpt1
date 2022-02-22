@@ -1,0 +1,38 @@
+insert into member (last_name, first_name, email, phone_number, date_of_birth, reminder_emails) values 
+('Hunter', 'Ryan', 'hunterryan@te.com', '000-000-0000', '07/19/1995', 'Y'),
+('Hunter', 'Oscar', 'hunteroscar@te.com', '111-111-1111', '04/04/1964', 'Y'),
+('Squarepants', 'Spongebob', 'sbsqp@te.com', '222-222-2222', '02/22/1922', 'N'),
+('Star', 'Patrick', 'starpatrick@te.com', '333-333-3333', '03/03/1933', 'Y'),
+('Belcher', 'Bob', 'belcherbob@te.com', '444-444-4444', '09/29/1979', 'N'),
+('Belcher', 'Tina', 'belchertina@te.com', '555-555-5555', '05/18/2010', 'N'),
+('Builder', 'Bob', 'builderbob@te.com', '777-777-7777', '12/12/1962', 'Y'),
+('Jamal', 'Ryan', 'jamalry@te.com', '', '07/19/1995', 'N');
+
+select * from member;
+
+
+insert into interest_group (name) values 
+('All Are Welcome'),
+('Bikini Bottom'),
+('Cartoon Characters');
+
+select * from interest_group;
+
+
+insert into event (name, description, date_time, duration, interest_group, member) values 
+('UnderWater Adventures','The Bakini Bottom Gang talks about life under the sea.', 'January 14, 2022 16:00:00', interval '2 hours', '2', '3'),
+('UnderWater Adventures','The Bakini Bottom Gang talks about life under the sea.', 'January 14, 2022 16:00:00', interval '2 hours', '2', '4'),
+('Chartoons R US', 'All our member cartoons discus life as a cartoon.', 'March 20, 2022 20:11:00', interval '1 hour 30 minute', '3', '3'),
+('Chartoons R US', 'All our member cartoons discus life as a cartoon.', 'March 20, 2022 20:11:00', interval '1 hour 30 minute', '3', '4'),
+('Chartoons R US', 'All our member cartoons discus life as a cartoon.', 'March 20, 2022 20:11:00', interval '1 hour 30 minute', '3', '5'),
+('Chartoons R US', 'All our member cartoons discus life as a cartoon.', 'March 20, 2022 20:11:00', interval '1 hour 30 minute', '3', '6'),
+('Chartoons R US', 'All our member cartoons discus life as a cartoon.', 'March 20, 2022 20:11:00', interval '1 hour 30 minute', '3', '7'),
+('Who','If you are cool, come meet!', 'July 19, 2022 10:00 am', interval '1 hour', '1', '1'),
+('Who','If you are cool, come meet!', 'July 19, 2022 10:00 am', interval '1 hour', '1', '2'),
+('Who','If you are cool, come meet!', 'July 19, 2022 10:00 am', interval '1 hour', '1', '8'),
+('All Members Welcome','Enjoy the festival!', 'October 31, 2022 8:00pm', interval '30 minute', '1', '1');
+
+select * from event;
+
+
+--Could create extra tables to combine data like member_number, interest_group_number, event_number
