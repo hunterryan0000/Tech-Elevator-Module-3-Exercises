@@ -5,6 +5,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.rowset.SqlRowSet;
 
 import javax.sql.DataSource;
+import java.sql.Date;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -65,7 +66,10 @@ public class JdbcParkDao implements ParkDao {
         park.setParkName(rowSet.getString("park_name"));
         park.setHasCamping(rowSet.getBoolean("has_camping"));
         park.setArea(rowSet.getDouble("area"));
-        park.setDateEstablished(rowSet.getDate("date_established").toLocalDate());
+        Date date = rowSet.getDate("date_established");
+        if (date != null) {
+            park.setDateEstablished(date.toLocalDate());
+        }
         return park;
     }
 }
