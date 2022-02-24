@@ -26,6 +26,7 @@ public class USCitiesAndParksCLI {
         dataSource.setPassword("postgres1");
 
         USCitiesAndParksCLI application = new USCitiesAndParksCLI(dataSource);
+
         application.run();
     }
 
