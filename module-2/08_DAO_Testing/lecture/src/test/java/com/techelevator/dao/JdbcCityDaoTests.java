@@ -109,6 +109,6 @@ public class JdbcCityDaoTests extends BaseDaoTests {
         Assert.assertEquals(expected.getCityName(), actual.getCityName());
         Assert.assertEquals(expected.getStateAbbreviation(), actual.getStateAbbreviation());
         Assert.assertEquals(expected.getPopulation(), actual.getPopulation());
-        Assert.assertEquals(expected.getArea(), actual.getArea(), 0.1);
+        Assert.assertEquals(expected.getArea(), actual.getArea(), 0.1); // floating point number
     }
 }

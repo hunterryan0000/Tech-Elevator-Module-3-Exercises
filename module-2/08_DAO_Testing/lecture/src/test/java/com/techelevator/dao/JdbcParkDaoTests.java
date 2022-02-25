@@ -1,11 +1,13 @@
 package com.techelevator.dao;
 
+import com.techelevator.model.City;
 import com.techelevator.model.Park;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.time.LocalDate;
+import java.util.List;
 
 public class JdbcParkDaoTests extends BaseDaoTests {
 
@@ -25,22 +27,37 @@ public class JdbcParkDaoTests extends BaseDaoTests {
 
     @Test
     public void getPark_returns_correct_park_for_id() {
-        Assert.fail();
+        Park park = sut.getPark(PARK_1.getParkId());
+        assertParksMatch(PARK_1, park);
     }
 
     @Test
     public void getPark_returns_null_when_id_not_found() {
-        Assert.fail();
+        // Aim high with id's not found, just in case
+        //someone adds a little more data later on
+        Park park = sut.getPark(999);
+        Assert.assertNull(park);
     }
 
     @Test
     public void getParksByState_returns_all_parks_for_state() {
-        Assert.fail();
+        // Expert 2 parks, 1 and 3
+        List<Park> list = sut.getParksByState("AA");
+
+        // Check that we got 2 parks back in the list
+        Assert.assertEquals(2, list.size());
+
+        //Make sure those 2 are parks 1 & 3, should come back in order by park_id
+        Park park1 = list.get(0);
+        assertParksMatch(PARK_1, park1);
+        Park park3 = list.get(1);
+        assertParksMatch(PARK_3, park3);
+
     }
 
     @Test
     public void getParksByState_returns_empty_list_for_abbreviation_not_in_db() {
-        Assert.fail();
+
     }
 
     @Test
@@ -60,6 +77,7 @@ public class JdbcParkDaoTests extends BaseDaoTests {
 
     @Test
     public void deleted_park_cant_be_retrieved() {
+
         Assert.fail();
     }
 

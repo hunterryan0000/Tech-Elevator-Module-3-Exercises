@@ -35,6 +35,7 @@ public class JdbcEmployeeDao implements EmployeeDao {
 	@Override
 	public List<Employee> searchEmployeesByName(String firstNameSearch, String lastNameSearch) {
 		List<Employee> employees = new ArrayList<>();
+		//ILIKE for name searches ignoring case
 		String sql = "SELECT * FROM employee WHERE first_name ILIKE ?  And last_name ILIKE ?";
 		SqlRowSet results = jdbcTemplate.queryForRowSet(sql, "%" + firstNameSearch + "%", "%" + lastNameSearch + "%");
 		while (results.next()) {

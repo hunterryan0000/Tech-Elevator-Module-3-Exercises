@@ -1,43 +1,44 @@
 Bug 1
 -----
 Test that demonstrates problem:
-
+    getTimesheetsByEmployeeId_returns_list_of_all_timesheets_for_employee
 Expected output:
-
+    2
 Actual output:
-
+    1
 How did you fix this bug?
+    Replaced the if statement (singular) with while (plural) a statement because the test returns a list
 
 
 Bug 2
 -----
 Test that demonstrates problem:
-
+    getTimesheetsByProjectId_returns_list_of_all_timesheets_for_employee
 Expected output:
-
+    3
 Actual output:
-
+    2
 How did you fix this bug?
-
+    Replaced where 'employee_id' to where 'project_id'. We are getting timesheet by project_id
 
 Bug 3
 -----
 Test that demonstrates problem:
-
+    updated_timesheet_has_expected_values_when_retrieved
 Expected output:
-
+    false
 Actual output:
-
+    true
 How did you fix this bug?
-
+    Had to add billable = ? to the sql statement
 
 Bug 4
 -----
 Test that demonstrates problem:
-
+    updated_timesheet_has_expected_values_when_retrieved
 Expected output:
-
+    updated
 Actual output:
-
+    no value specified
 How did you fix this bug?
-
+    updatedTimesheet.isBillable(). To specify boolean

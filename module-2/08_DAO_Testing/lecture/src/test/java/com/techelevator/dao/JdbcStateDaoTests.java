@@ -57,8 +57,11 @@ public class JdbcStateDaoTests extends BaseDaoTests {
     public void getStates_returns_all_states() {
         List<State> states = sut.getStates();
 
+        // Checking if we have the correct size
+        // we can look at the test data insert script
         Assert.assertEquals(3, states.size());
 
+        // we know that the query should order by state_abbreviation
         assertStatesMatch(STATE_A, states.get(0));
         assertStatesMatch(STATE_B, states.get(1));
         assertStatesMatch(STATE_C, states.get(2));
