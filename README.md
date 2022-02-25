@@ -124,3 +124,6 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 - Day 9 
     - [DAO Testing](https://techelevator.zoom.us/rec/share/337yBSC0Sr11qdbZDkF-PfheqgQuyOHIiaK5PPwKk6Brol8_adZPitmPtXmGkmHQ.qsNKgKDg4nAZUsX9?startTime=1645714406000)
+
+- Day 10
+    - [Review](https://techelevator.zoom.us/rec/share/6pSdxR5V7LUpRPieXUEOVm_EYq5a8wpFypcr7eAGP3voh0cECDyYeUiLil4T7xZI.H84tlJy0KKlCEF4V?startTime=1645800663000)
