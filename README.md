@@ -122,4 +122,5 @@ Class lectures are recorded each day and links will be posted here once availabl
     - [Dealing with Nulls](https://techelevator.zoom.us/rec/share/46nl-Y6WH9sHNlnfwkDA6U0exhCdNQVjwJPDEfJ5wvixlz8B-gUTTCsu3hWzEOZX.T-vtyoOOQPI6m256?startTime=1645627985000)
     - [Security](https://techelevator.zoom.us/rec/share/46nl-Y6WH9sHNlnfwkDA6U0exhCdNQVjwJPDEfJ5wvixlz8B-gUTTCsu3hWzEOZX.T-vtyoOOQPI6m256?startTime=1645632062000)
 
-    
+- Day 9 
+    - [DAO Testing](https://techelevator.zoom.us/rec/share/337yBSC0Sr11qdbZDkF-PfheqgQuyOHIiaK5PPwKk6Brol8_adZPitmPtXmGkmHQ.qsNKgKDg4nAZUsX9?startTime=1645714406000)
