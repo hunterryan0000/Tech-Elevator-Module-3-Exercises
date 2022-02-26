@@ -35,9 +35,8 @@ public class JdbcTaskDao implements TaskDao {
     public List<Task> getAllTasks() {
         List<Task> tasks = new ArrayList<>();
         // TODO - Update to sort tasks due soonest first, but all completed tasks at the end
-        String sql = "SELECT task.*, category.id as category_id, category.name as category_name FROM task " +
-                "JOIN category on task.category_id = category.id " +
-                "ORDER BY task.id;";
+        String sql = "SELECT task.*, category.id as category_id, category.name as category_name \n" +
+                "FROM task JOIN category on task.category_id = category.id ORDER BY task.complete, task.due";
         SqlRowSet results = jdbcTemplate.queryForRowSet(sql);
         while (results.next()) {
             tasks.add(mapRow(results));
