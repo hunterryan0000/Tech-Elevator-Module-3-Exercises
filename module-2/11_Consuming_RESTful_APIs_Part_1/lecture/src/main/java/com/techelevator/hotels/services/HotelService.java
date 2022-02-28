@@ -11,7 +11,8 @@ public class HotelService {
     private final RestTemplate restTemplate = new RestTemplate();
 
     public Hotel[] listHotels() {
-        return null;
+       Hotel[] hotels = restTemplate.getForObject(API_BASE_URL + "hotels", Hotel[].class);
+       return hotels;
     }
 
     public Review[] listReviews() {
@@ -23,7 +24,7 @@ public class HotelService {
     }
 
     public Review[] getReviewsByHotelId(int hotelID) {
-        return null;
+        return restTemplate.getForObject(API_BASE_URL + "hotels/" + hotelID + "/reviews", Review[].class);
     }
 
     public Hotel[] getHotelsByStarRating(int stars) {
