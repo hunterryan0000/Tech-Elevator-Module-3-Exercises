@@ -15,18 +15,24 @@ public class LocationService {
     private final RestTemplate restTemplate = new RestTemplate();
 
     public Location add(Location newLocation) {
-        //Step Three: Add a location with POST
-        return null;
+        HttpEntity<Location> entity = makeEntity(newLocation);
+
+        Location returnedLocation = null;
+        returnedLocation = restTemplate.postForObject(API_BASE_URL, newLocation, Location.class);
+        return returnedLocation;
     }
 
     public boolean update(Location updatedLocation) {
-        //Step Four: Modify a location with PUT
-        return false;
+        HttpEntity<Location> entity = makeEntity(updatedLocation);
+
+        restTemplate.put(API_BASE_URL + updatedLocation.getId(), entity);
+
+        return true;
     }
 
     public boolean delete(int id) {
-        //Step Five: Delete a location with DELETE
-        return false;
+            restTemplate.delete(API_BASE_URL + id);
+            return true;
     }
 
     public Location[] getAll() {
