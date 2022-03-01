@@ -81,10 +81,13 @@ public class JdbcTaskDao implements TaskDao {
             task.setDueDate(date.toLocalDate());
         }
         task.setComplete(rowSet.getBoolean("complete"));
+
+        // Create the Category object to add to the Task
         Category category = new Category();
         category.setId(rowSet.getInt("category_id"));
         category.setName(rowSet.getString("category_name"));
         task.setCategory(category);
+
         return task;
     }
 }

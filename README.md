@@ -127,3 +127,8 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 - Day 10
     - [Review](https://techelevator.zoom.us/rec/share/6pSdxR5V7LUpRPieXUEOVm_EYq5a8wpFypcr7eAGP3voh0cECDyYeUiLil4T7xZI.H84tlJy0KKlCEF4V?startTime=1645800663000)
+
+#### Week 7
+
+- Day 11
+    - [HTTP - Consuming API's Part 1](https://techelevator.zoom.us/rec/share/7XZXZ0v9i-yHQoEnVB5I4OeU_cSMVi8PDvFnJYcKBQh9wASNUJJQ7Fb8BlSJCFUf.1M3RD6V9IosmwnV7?startTime=1646059274000)
