@@ -132,3 +132,7 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 - Day 11
     - [HTTP - Consuming API's Part 1](https://techelevator.zoom.us/rec/share/7XZXZ0v9i-yHQoEnVB5I4OeU_cSMVi8PDvFnJYcKBQh9wASNUJJQ7Fb8BlSJCFUf.1M3RD6V9IosmwnV7?startTime=1646059274000)
+
+- Day 12
+    - [Intro](https://techelevator.zoom.us/rec/share/2SACKYqKLF3aN8D3gEDw6I9CC648mmpDinxgAHnZl8j4M_cOcq2LUb_-SOn25LtB.--K61R6VzqD2NFHa?startTime=1646147412000)
+    - [POST, DELETE, PUT](https://techelevator.zoom.us/rec/share/2SACKYqKLF3aN8D3gEDw6I9CC648mmpDinxgAHnZl8j4M_cOcq2LUb_-SOn25LtB.--K61R6VzqD2NFHa?startTime=1646150252000)
