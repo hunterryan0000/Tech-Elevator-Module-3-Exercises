@@ -70,6 +70,7 @@ public class LocationController {
 
     @RequestMapping( path = "/locations/random", method = RequestMethod.GET )
     public Location random() {
+
         return locations.get(new Random().nextInt(locations.size()));
     }
 
