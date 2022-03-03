@@ -18,15 +18,16 @@ public class AuctionController {
     }
 
     @RequestMapping(path= "/auctions", method=RequestMethod.GET)
-    public List<Auction> list(@RequestParam (defaultValue = "" ) String title_like, @RequestParam (defaultValue = "0") double currentBid_lte) {
-        if (!title_like.equals("") && (currentBid_lte > 0)) {
-            return dao.searchByTitleAndPrice(title_like, currentBid_lte);
+    public List<Auction> list(@RequestParam (value = "title_like", defaultValue = "" ) String title, @RequestParam (value = "currentBid_lte", defaultValue = "0") double currentBid) {
+
+        if (!title.isEmpty() && (currentBid > 0)) {
+            return dao.searchByTitleAndPrice(title, currentBid);
         }
-        else if (!title_like.equals("") ){
-            return dao.searchByTitle(title_like);
+        else if (!title.isEmpty() ){
+            return dao.searchByTitle(title);
         }
-        else if (currentBid_lte > 0) {
-            return dao.searchByPrice(currentBid_lte);
+        else if (currentBid > 0) {
+            return dao.searchByPrice(currentBid);
         }
         else return dao.list();
     }
