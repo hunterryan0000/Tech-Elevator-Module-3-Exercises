@@ -88,6 +88,7 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 - Capstones!!!
 
+
 ### Module 2
 
 #### Week 5
@@ -147,3 +148,19 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 - Day 15
     - [New Project Setup & Review](https://techelevator.zoom.us/rec/share/bx5oPN_9TNwJQ5UtpaCwnw6YxR9emEI5ymCKHXkWiUMHP00tEu3aUawDcsRv2rgo.pV8436dVV4eGp3--?startTime=1646404762000)
+
+#### Week 8 
+
+- Day 16
+    - [Auth](https://techelevator.zoom.us/rec/share/qPlSYaKdmCNc7fPy2ONEeZuiM_GU5hnpkbJ4ODXbKtpaj7xz9xqr8SdVOXlhDmVx.fjyuIrwSLBSfmKhN?startTime=1646664512000)
+
+- Day 17
+    - [Review]()
+
+- Capstones!!!
+
+
+### Module 3
+
+#### Week 9
+
