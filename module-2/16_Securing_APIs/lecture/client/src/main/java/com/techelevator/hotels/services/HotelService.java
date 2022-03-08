@@ -82,7 +82,8 @@ public class HotelService {
     public Reservation[] listReservations() {
         Reservation[] reservations = null;
         try {
-            ResponseEntity<Reservation[]> response = restTemplate.exchange(API_BASE_URL + "reservations",
+            ResponseEntity<Reservation[]> response =
+                    restTemplate.exchange(API_BASE_URL + "reservations",
                     HttpMethod.GET, makeAuthEntity(), Reservation[].class);
             reservations = response.getBody();
         } catch (RestClientResponseException | ResourceAccessException e) {

@@ -15,6 +15,7 @@ public class AuthenticationService {
         CredentialsDto credentialsDto = new CredentialsDto();
         credentialsDto.setUsername(username);
         credentialsDto.setPassword(password);
+
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
         HttpEntity<CredentialsDto> entity = new HttpEntity<>(credentialsDto, headers);
