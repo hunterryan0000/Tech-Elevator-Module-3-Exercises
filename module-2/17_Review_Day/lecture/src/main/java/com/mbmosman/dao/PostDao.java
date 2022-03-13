@@ -8,7 +8,9 @@ public interface PostDao {
 
     Post createPost(Post data);
 
-    List<Post> getPosts();
+    List<Post> getAllPosts();
+
+    List<Post> getPostsForUser (int userID);
 
     Post getPost(int id);
 

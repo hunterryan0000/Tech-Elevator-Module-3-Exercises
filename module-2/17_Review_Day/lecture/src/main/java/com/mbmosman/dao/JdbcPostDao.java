@@ -24,6 +24,16 @@ public class JdbcPostDao implements PostDao {
     }
 
     @Override
+    public List<Post> getAllPosts() {
+        return null;
+    }
+
+    @Override
+    public List<Post> getPostsForUser(int userID) {
+        return null;
+    }
+
+    @Override
     public List<Post> getPosts() {
         String sql = "SELECT * FROM post ORDER BY create_date;";
         SqlRowSet resultSet = jdbcTemplate.queryForRowSet(sql);
