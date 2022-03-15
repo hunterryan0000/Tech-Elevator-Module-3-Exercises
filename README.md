@@ -164,3 +164,8 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 #### Week 9
 
+- Day 21
+    - [HTML/CSS](https://techelevator.zoom.us/rec/share/jP0VC8vCpilTZMIRoBtbEtj4Lq4cMBRyTIbxI28FQH437utX6HX7rGy-Ll8U2NOg.ixI-18oFNb-cCg-V?startTime=1647265780000)
+
+- Day 22 
+    - [CSS Selectors]()
