@@ -168,4 +168,4 @@ Class lectures are recorded each day and links will be posted here once availabl
     - [HTML/CSS](https://techelevator.zoom.us/rec/share/jP0VC8vCpilTZMIRoBtbEtj4Lq4cMBRyTIbxI28FQH437utX6HX7rGy-Ll8U2NOg.ixI-18oFNb-cCg-V?startTime=1647265780000)
 
 - Day 22 
-    - [CSS Selectors]()
+    - [CSS Selectors](https://techelevator.zoom.us/rec/share/KTAQY8BElr0Y68ltlgdLGMzH3aE7Cc9yzpyQsnxU2WbFTmHYS3wNgWvvoSbTR0YJ.cazeFvp7s8paRmsq?startTime=1647352249000)
