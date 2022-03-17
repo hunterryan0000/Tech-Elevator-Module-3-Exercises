@@ -97,7 +97,7 @@ Look at the Desktop layout diagram of the earlier in this document. To create th
 Now that you have a good layout for wide devices (desktop), you must create a layout for intermediate-width devices, such as a tablet.
 
 * **Action**: Create a media query to apply to devices that are <= 1024 pixels wide. Then add the following rules inside the media query to override the ones you previously defined:
-  * **Action**: Use the appropriate CSS declaration to give `main-grid` two columns of equal width.
+  * **Action**: Use the appropriate CSS declaration to gie `main-grid` two columns of equal width.
   * **Action**: Use a CSS declaration to give `main-grid` a row gap of 20px and a column gap of 35px.
   * **Action**: Define the `grid-template-areas` for `main-grid` to contain five rows of two columns each. Using the `grid-area` names you defined in the first step, assign each child element to its place in the grid. Refer to the Tablet layout diagram for guidance on how to place the elements in `grid-template-areas`. Note how `student-quote` is on the second and third rows, next to `student-picture` and `student-contact`.
   * In the Tablet layout, `experience-grid` has two columns of equal width, so there is no reason to override `grid-template-columns` here.
