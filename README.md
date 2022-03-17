@@ -157,15 +157,23 @@ Class lectures are recorded each day and links will be posted here once availabl
 - Day 17
     - [Review]()
 
-- Capstones!!!
+- Day 18, 19, 20
+    - Capstones!!!
 
 
 ### Module 3
 
 #### Week 9
 
-- Day 21
+- Day 1
     - [HTML/CSS](https://techelevator.zoom.us/rec/share/jP0VC8vCpilTZMIRoBtbEtj4Lq4cMBRyTIbxI28FQH437utX6HX7rGy-Ll8U2NOg.ixI-18oFNb-cCg-V?startTime=1647265780000)
 
-- Day 22 
+- Day 2 
     - [CSS Selectors](https://techelevator.zoom.us/rec/share/KTAQY8BElr0Y68ltlgdLGMzH3aE7Cc9yzpyQsnxU2WbFTmHYS3wNgWvvoSbTR0YJ.cazeFvp7s8paRmsq?startTime=1647352249000)
+
+- Day 3 
+    - [CSS Grid](https://techelevator.zoom.us/rec/share/Puz82dSgxr3Lbxb5ys004_u68YpfrU0EoBYiJZmvFqiXWduJdRQdeYSe6vtdzjot.qa9WaU7EmxdFyzbL?startTime=1647438979000)
+
+- Day 4 
+    - [Flexbox]()
+
