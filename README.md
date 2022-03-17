@@ -175,5 +175,5 @@ Class lectures are recorded each day and links will be posted here once availabl
     - [CSS Grid](https://techelevator.zoom.us/rec/share/Puz82dSgxr3Lbxb5ys004_u68YpfrU0EoBYiJZmvFqiXWduJdRQdeYSe6vtdzjot.qa9WaU7EmxdFyzbL?startTime=1647438979000)
 
 - Day 4 
-    - [Flexbox]()
+    - [Flexbox](https://techelevator.zoom.us/rec/share/IujAyiCjZPr91BsN1XAFcTDlvA6FZTF9WBTLpNNZ1FEhnf2KE2HW2FS_5bKS_Db1.W9Y8rpatwid77AVF?startTime=1647525368000)
 
