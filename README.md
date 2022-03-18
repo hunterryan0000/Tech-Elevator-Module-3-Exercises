@@ -177,3 +177,11 @@ Class lectures are recorded each day and links will be posted here once availabl
 - Day 4 
     - [Flexbox](https://techelevator.zoom.us/rec/share/IujAyiCjZPr91BsN1XAFcTDlvA6FZTF9WBTLpNNZ1FEhnf2KE2HW2FS_5bKS_Db1.W9Y8rpatwid77AVF?startTime=1647525368000)
 
+- Day 5
+    - [Pep Talk](https://techelevator.zoom.us/rec/share/gD3RDuAt91-mfkza2XabG0l6_84Tlzr0u9qnEz02oUwVdMQ2Xcr99Qu61qmbOOu4.Pq0RBLObUPzp6Gvo?startTime=1647611179000)
+    - [Review](https://techelevator.zoom.us/rec/share/gD3RDuAt91-mfkza2XabG0l6_84Tlzr0u9qnEz02oUwVdMQ2Xcr99Qu61qmbOOu4.Pq0RBLObUPzp6Gvo?startTime=1647613191000)
+
+    #### Week 10
+
+- Day 6
+    - Coming soon...
