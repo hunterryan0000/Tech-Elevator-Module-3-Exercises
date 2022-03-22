@@ -12,6 +12,33 @@
         iqTest("2 2 4 6") → 0 // all numbers are even, therefore there is no position of an odd number
 */
 
+    function iqTest(input) {
+        const digits = input.split(' ');
+        const numbers = digits.map(function(x) {
+        return parseInt(x)
+        });
+    
+        const evens = numbers.filter(function(y) {
+        return y % 2 === 0;
+        }).length;
+    
+        const odds = numbers.filter(function(y) {
+        return y % 2 === 1;
+        }).length;
+    
+        if (odds === 1) {
+        return numbers.findIndex(function(y) {
+            return y % 2 === 1
+        }) + 1;
+        } else if (evens === 1) {
+        return numbers.findIndex(function(y) {
+            return y % 2 === 0
+        }) + 1;
+        } else {
+        return 0;
+        }
+    }
+
 /*
 2. **titleCase** Write a function that will convert a string into title case, given an optional 
     list of exceptions (minor words). The list of minor words will be given as a string with each 
@@ -28,3 +55,16 @@ argument is unused.
 		titleCase('THE WIND IN THE WILLOWS', 'The In') // should return: 'The Wind in the Willows'
         titleCase('the quick brown fox') // should return: 'The Quick Brown Fox'
 */
+
+    function titleCase(title, minorWords) {
+        const exceptions = minorWords === undefined ? [] : minorWords.toLowerCase().split(' ');
+        let words = title.toLowerCase().split(' ');
+    
+        for (let i = 0; i < words.length; i++) {
+        if (!exceptions.includes(words[i]) || i === 0) {
+            words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1);
+        }
+        }
+    
+        return words.join(' ');
+    }
