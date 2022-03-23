@@ -185,3 +185,9 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 - Day 6
     - [JS Intro](https://techelevator.zoom.us/rec/share/lCk-a924jPDFPtRygtn444V8cUo60m8Q-VvzC40A42eoVUk7tb9MnHa4kWoqVK3a.cCPsxgRyN1oEsSrN?startTime=1647870598000) 
+
+- Day 7 
+    - [JS Functions](https://techelevator.zoom.us/rec/share/I45TIPOSm8PSIDvU8gqPdNYOxyOJ7iIKWgBAx1rYs6eg3Xyf92UZZ6ab39RWkSBA.WMx2idHZbYno3VC6?startTime=1647957113000)
+
+- Day 8
+    - Coming Soon...
