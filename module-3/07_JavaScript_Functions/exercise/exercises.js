@@ -151,22 +151,10 @@ function findLargest(array){
  * Read the tests to verify you have the correct behavior.
  */
 
-function getSumOfSubArrayValues(arr) { 
-    let sum = 0; 
-
-    // loop through entire array
-    for (let i = 0; i < arr.length; i++) {
-    
-    // loop through each inner array
-    for (let x = 0; x < arr[i].length; x++) {
-      
-      // add this number to the current final sum
-      sum += arr[i][x];
-      
-    }
-    
-  } 
-  return sum;
+function getSumOfSubArrayValues(outerArray = []) { 
+    return outerArray.reduce((outerTotal, innerArray) => {
+        return outerTotal + innerArray.reduce((innerTotal, total) => innerTotal + total);
+    },0);
   
 }
 
