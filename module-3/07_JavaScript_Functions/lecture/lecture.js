@@ -20,13 +20,41 @@ function printToConsole(value) {
   console.log(value);
 }
 
+// Calling the function above with different input parameters of different types
+// printToConsole("Hello");
+// printToConsole(42);
+// printToConsole(false);
+// printToConsole([1,2,3]);
+// printToConsole({name: 'Kyo', color: 'orange'});
+
 /**
  * Write a function called multiplyTogether that multiplies two numbers together. But 
  * what happens if we don't pass a value in? What happens if the value is not a number?
  *
  * @param {number} firstParameter the first parameter to multiply
  * @param {number} secondParameter the second parameter to multiply
+ * 
+ * @returns{number} the result of multiplying firstP & secondP
  */
+
+function multiplyTogether (firstParameter, secondParameter) {
+  return firstParameter*secondParameter;
+}
+
+console.log(multiplyTogether(12, 3));
+console.log(multiplyTogether());  //NaN (before we did code below), 0 after we did code below to set default values
+console.log(multiplyTogether(42));  //NaN (before we did code below), 0 after we did code below to set default values
+console.log(multiplyTogether('BTS', 'Army'));  //NaN
+
+let result = multiplyTogether();
+
+//NaN doesn't compare using the equality operators, == === etc
+//ex if (result === NaN) 
+  if (isNaN(result)) {
+  console.log(`Sorry, you can't multiply things that aren't numbers.`);
+} else {
+  console.log(`Result of multiplyTogether() is ${result}.`);
+}
 
 /**
  * This version makes sure that no parameters are ever missing. If
@@ -37,8 +65,23 @@ function printToConsole(value) {
  *
  * @param {number} [firstParameter=0] the first parameter to multiply
  * @param {number} [secondParameter=0] the second parameter to multiply
+ * 
+ * @returns{number} the result of multiplying firstP & secondP
  */
 
+// This function is "hoisted" so that it is in place before any other code is executed.
+//The calls to the function on lines 42-46, use this declaration which overrides the previous one on line 38.
+// function multiplyTogether(firstParameter = 0, secondParameter = 0) {
+//   return firstParameter * secondParameter;
+// }
+
+
+//You can't overload functions the same way you can in Java to change
+//the method. below overrides or overwrites the method since 
+//the function's name is the same
+function multiplyTogether(firstParameter = 0, secondParameter = 0, thirdParameter = 0) {
+  return firstParameter + secondParameter + thirdParameter;
+}
 
  
 /**
@@ -78,6 +121,7 @@ function scopeTest() {
   {
     // this variable lives inside this block and doesn't
     // exist outside of the block
+    //{} is on block
     let scopedToBlock = inScopeInScopeTest;
   }
 
@@ -92,6 +136,8 @@ function createSentenceFromUser(name, age, listOfQuirks = [], separator = ', ') 
   return description + listOfQuirks.join(separator);
 }
 
+console.log(createSentenceFromUser('Ryan', 26, ['Tech', 'Elevator']));
+
 /**
  * Takes an array and, using the power of anonymous functions, generates
  * their sum.
@@ -100,8 +146,9 @@ function createSentenceFromUser(name, age, listOfQuirks = [], separator = ', ') 
  * @returns {number} sum of all the numbers
  */
 function sumAllNumbers(numbersToSum) {
-  return numbersToSum.reduce();
+  return numbersToSum.reduce((total, number) => total + number);
 }
+console.log (sumAllNumbers ([1,2,3,4,5,6,7]));
 
 /**
  * Takes an array and returns a new array of only numbers that are
@@ -111,4 +158,42 @@ function sumAllNumbers(numbersToSum) {
  * @returns {number[]} a new array with only those numbers that are
  *   multiples of 3
  */
-function allDivisibleByThree(numbersToFilter) {}
+function allDivisibleByThree(numbersToFilter) {
+  let numbersByThree = [];
+
+  for (let number of numbersToFilter) {
+    if (number % 3 === 0) {
+      numbersByThree.push(number);
+    }
+  } return numbersByThree;
+}
+
+console.log(allDivisibleByThree([1,2,3,4,5,6,7,8,9]));
+console.log(allDivisibleByThree([])); // gives an empty array
+console.log(allDivisibleByThree([2,8,19,23])); // gives an empty array
+
+function allDivisibleByThreeUsingFilter(numbersToFilter) {
+  return numbersToFilter.filter(function (number) {
+    if (number % 3 === 0) {
+      return true;
+    }
+  });
+}
+
+function allDivisibleByThreeUsingFilterP2(numbersToFilter) {
+  return numbersToFilter.filter(function (number) {
+    return  (number % 3 === 0);
+  });
+}
+
+//If no {} return is assumed
+function allDivisibleByThreeUsingFilterP3(numbersToFilter) {
+  return numbersToFilter.filter((number) => (number % 3 === 0));
+}
+
+//If no {} return is assumed
+//if only one parameter like number no () works too
+function allDivisibleByThreeUsingFilterP4(numbersToFilter) {
+  return numbersToFilter.filter(number => (number % 3 === 0));
+}
+
