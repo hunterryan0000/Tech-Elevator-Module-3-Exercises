@@ -154,7 +154,7 @@ function findLargest(array){
 function getSumOfSubArrayValues(outerArray = []) { 
     return outerArray.reduce((outerTotal, innerArray) => {
         return outerTotal + innerArray.reduce((innerTotal, total) => innerTotal + total);
-    },0);
+    },0)
   
 }
 
