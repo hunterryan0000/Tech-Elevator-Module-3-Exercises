@@ -190,4 +190,7 @@ Class lectures are recorded each day and links will be posted here once availabl
     - [JS Functions](https://techelevator.zoom.us/rec/share/I45TIPOSm8PSIDvU8gqPdNYOxyOJ7iIKWgBAx1rYs6eg3Xyf92UZZ6ab39RWkSBA.WMx2idHZbYno3VC6?startTime=1647957113000)
 
 - Day 8
-    - Coming Soon...
+    - [JS DOM](https://techelevator.zoom.us/rec/share/Wu84Sc4BqbMvajXPtdHN3uEiEfjERdys3QvxqK9MYiU9JFfKJs4v0rqNRQTpIduq.c2SEsWvwj21CMKMg?startTime=1648043284000)
+
+- Day 9 
+    - [DOM Events](https://techelevator.zoom.us/rec/share/ZXqZrQ-4h1hJEciSU5ohYqUHDj6XyxMSb25_S8rEHpLJzvSK-pRn9uiHGqSIQjAs.2t8EIK2OlKMeQjic?startTime=1648130434000)
