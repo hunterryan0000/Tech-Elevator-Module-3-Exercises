@@ -35,4 +35,68 @@ function displayGroceries() {
     li.appendChild(checkCircle);
     ul.appendChild(li);
   });
+
 }
+
+                    //START
+
+document.addEventListener('DOMContentLoaded', () => {
+  setPageTitle();
+  displayGroceries();
+
+let items = document.querySelectorAll('li');
+
+    // when you click on a task mark it completed
+  items.forEach((item => {  
+    item.addEventListener('click', () => {
+      if (!item.classList.contains('completed')) {
+        item.classList.add('completed');
+        item.querySelector('i').classList.add('completed');
+      }
+    });
+
+    // when you double click a task remove the completed class
+    item.addEventListener('dblclick', () => {
+      if (item.classList.contains('completed')) {
+        item.classList.remove('completed');
+        item.querySelector('i').classList.remove('completed');
+      }
+    });
+  }));
+
+  // mark all tasks as completed
+  let completeAll = document.getElementById('toggleAll');
+
+  completeAll.addEventListener('click', () => {
+    if (allItemsIncomplete) { 
+    items.forEach((item) => {
+      if (!item.classList.contains('completed'))
+      item.classList.add('completed');
+      item.querySelector('i').classList.add('completed');
+    });
+    changeToggle();
+  } else {
+    items.forEach((item) => {
+      if (item.classList.contains('completed')) {
+      item.classList.remove('completed');
+      item.querySelector('i').classList.remove('completed');
+      
+      }
+    });
+    changeToggleBack();
+  }
+  });
+
+  function changeToggle() {
+    completeAll.innerText = "Mark All Incomplete";
+    allItemsIncomplete = false;
+}
+function changeToggleBack () {
+    completeAll.innerText = "Mark All Complete";
+    allItemsIncomplete;
+}
+
+  
+
+});
+
