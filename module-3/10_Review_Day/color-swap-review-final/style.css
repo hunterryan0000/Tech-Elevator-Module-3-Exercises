@@ -1,0 +1,18 @@
+.block {
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 350px;
+}
+
+.block > p {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
