@@ -194,3 +194,6 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 - Day 9 
     - [DOM Events](https://techelevator.zoom.us/rec/share/ZXqZrQ-4h1hJEciSU5ohYqUHDj6XyxMSb25_S8rEHpLJzvSK-pRn9uiHGqSIQjAs.2t8EIK2OlKMeQjic?startTime=1648130434000)
+
+- Day 10
+    - [Review Day](https://techelevator.zoom.us/rec/share/MK7R1RZZEpLenMttPfjQ-R50G0mKvXw-h02umU4xEg3x3_ADh7T_tSVgWTFqdSHX.WhkWIMeCMq9pdi-o?startTime=1648216536000)
