@@ -13,8 +13,21 @@ public class Order {
 
     private boolean isPhoneOrder;
     private long orderNumber;
+
+    public long getOrderNumber() {
+        return orderNumber;
+    }
+
+    public void setOrderNumber(long orderNumber) {
+        this.orderNumber = orderNumber;
+    }
+
     private Date orderDate;
     private Date pickupDate;
+
+    public Order(boolean isPhoneOrder) {
+        this.isPhoneOrder = isPhoneOrder;
+    }
 
     // This should be a decimal value not a percentage
     private double taxMuliplier;
