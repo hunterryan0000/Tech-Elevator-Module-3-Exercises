@@ -197,3 +197,8 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 - Day 10
     - [Review Day](https://techelevator.zoom.us/rec/share/MK7R1RZZEpLenMttPfjQ-R50G0mKvXw-h02umU4xEg3x3_ADh7T_tSVgWTFqdSHX.WhkWIMeCMq9pdi-o?startTime=1648216536000)
+
+#### Week 11
+
+- Day 11
+    - [Vue intro](https://techelevator.zoom.us/rec/share/qA6OeCXmw9vgDbj6H0WbFDCi2E8jduTFcWtqOBZN8S4xFdSQcLgWqoA26FBVQIDn.lIGPBFk2qdLcsq-k?startTime=1648475715000)
