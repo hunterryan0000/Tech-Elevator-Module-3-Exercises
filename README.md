@@ -202,3 +202,6 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 - Day 11
     - [Vue intro](https://techelevator.zoom.us/rec/share/qA6OeCXmw9vgDbj6H0WbFDCi2E8jduTFcWtqOBZN8S4xFdSQcLgWqoA26FBVQIDn.lIGPBFk2qdLcsq-k?startTime=1648475715000)
+
+- Day 12
+    - [Vue events](https://techelevator.zoom.us/rec/share/pPPyMx89-SHfCj0gMX7sz6fgbxSIZEU9gJyu6XvMTT8ivumkPl-vEXCcprr-8Gyr.k8d5cA89gNmzZn-W?startTime=1648648097000)
