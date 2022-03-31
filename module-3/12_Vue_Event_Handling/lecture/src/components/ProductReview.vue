@@ -36,12 +36,44 @@
       </div>
     </div>
 
+    <form v-on:submit.prevent="addNewReview">
+      <div class="form-element">
+        <label for="reviewer">Name:</label>
+        <input id="reviewer" type="text" v-model="newReview.reviewer"/>
+      </div>
+
+      <div class="form-element">
+        <label for="title">Title:</label>
+        <input id="title" type="text" v-model="newReview.title"/>
+      </div>
+
+      <div class="form-element">
+        <label for="rating">Rating:</label>
+        <select id="rating" v-model="newReview.rating">
+         <option value="1">1 Star</option>
+         <option value="2">2 Star</option>
+         <option value="3">3 Star</option>
+         <option value="4">4 Star</option>
+         <option value="5">5 Star</option>
+        </select>
+      </div>
+
+       <div class="form-element">
+        <label for="review">Review:</label>
+        <textarea id="review" v-model="newReview.review"/>
+      </div>
+
+      <button type="submit">Save</button>
+      <button type="button">Cancel</button>
+    </form>
+
     <div
       class="review"
-      v-bind:class="{ favorited: review.favorited }"
+      v-bind:class="{ favorited: review.favorited }" 
       v-for="review in reviews"
       v-bind:key="review.id"
     >
+    <!--favorited class is activated once favorited is true-->
       <h4>{{ review.reviewer }}</h4>
       <div class="rating">
         <img
@@ -59,6 +91,7 @@
       <p>
         Favorite?
         <input type="checkbox" v-model="review.favorited" />
+        <!--two way binding using v-model-->
       </p>
     </div>
   </div>
@@ -108,6 +141,23 @@ export default {
         }
       ]
     };
+  },
+  methods: {
+    addNewReview() {
+      //console.log('Adding a new review')
+      this.reviews.unshift(this.newReview);
+      this.resetForm();
+    },
+    resetForm(){
+      this.newReview = {
+        reviewer: '',
+        title: '',
+        rating: '',
+        review: '',
+        favorited: false
+
+      }
+    }
   },
   computed: {
     averageRating() {
