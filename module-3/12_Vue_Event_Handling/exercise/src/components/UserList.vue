@@ -15,6 +15,7 @@
       <tbody>
         <tr>
           <td>
+            <!-- STEP 6 -->
             <input type="checkbox" id="selectAll" v-on:change="selectAll($event)" />
           </td>
           <td>
@@ -45,7 +46,17 @@
         >
           <td>
             <!-- STEP 5 -->
-            <input type="checkbox" v-bind:checked="selectedUserIDs.includes(user.id)" v-bind:id="user.id" v-bind:value="user.id" v-on:change="checkUncheck($event)"/>
+            <input type="checkbox" 
+            v-bind:id="user.id" 
+            v-bind:value="user.id" 
+            v-on:change="selectUser($event)"
+            v-bind:checked="selectedUserIDs.includes(user.id)" />
+
+            <!-- <input type="checkbox" 
+            v-bind:id="user.id" 
+            v-bind:value="user.id"     <--- getting put in the array; can change to name, etc
+            v-model= "selectedUserIds" /> -->
+
           </td>
           <td>{{ user.firstName }}</td>
           <td>{{ user.lastName }}</td>
@@ -169,7 +180,7 @@ export default {
   },
   methods: {
     // STEP 6
-    checkUncheck(event) {
+    selectUser(event) {
       if (event.target.checked == true) {
         this.selectedUserIDs.push(parseInt(event.target.id))
       } else {
