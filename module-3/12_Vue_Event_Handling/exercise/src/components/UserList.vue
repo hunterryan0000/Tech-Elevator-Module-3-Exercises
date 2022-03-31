@@ -195,28 +195,35 @@ export default {
         return user.id == aUserId
       })
       if (this.users[index].status === "Active"){
-        this.users[index].status = "Disabled"}})
-      this.selectedUserIDs = [];},
+        this.users[index].status = "Disabled"
+        }})
+      this.selectedUserIDs = [];
+      },
     enableSelectedUsers(){
       this.selectedUserIDs.forEach((aUserId) => {
         let index = this.users.findIndex(user => {
         return user.id == aUserId})
       if (this.users[index].status === "Disabled"){
         this.users[index].status = "Active"}})
-      this.selectedUserIDs = [];},
+      this.selectedUserIDs = [];
+      },
     flipStatus(id){
       let index = this.users.findIndex(user => {
         return user.id == id})
-      this.users[index].status = this.users[index].status === "Active" ? "Disabled" : "Active"},
+      this.users[index].status = this.users[index].status === "Active" ? "Disabled" : "Active"
+      },
     saveUser() {
-      this.users.push(this.newUser)}},
+      this.users.push(this.newUser)
+      }
+    },
   computed: {
     actionButtonDisabled(){
       if (this.selectedUserIDs.length === 0) {
         return true;
       }
       else {
-        return false;}
+        return false;
+      }
     },
     filteredList() {
       let filteredUsers = this.users;
