@@ -63,7 +63,6 @@
       </tbody>
     </table>
     <div class="all-actions">
-      // STEP 5
       <button v-bind:disabled= "actionButtonDisabled" v-on:click="enableSelectedUsers">Enable Users</button>
       <button v-bind:disabled= "actionButtonDisabled" v-on:click="disableSelectedUsers">Disable Users</button>
       <button v-bind:disabled= "actionButtonDisabled" v-on:click="deleteSelectedUsers">Delete Users</button>
