@@ -44,6 +44,7 @@
           v-bind:class="{ disabled: user.status === 'Disabled' }"
         >
           <td>
+            <!-- STEP 5 -->
             <input type="checkbox" v-bind:checked="selectedUserIDs.includes(user.id)" v-bind:id="user.id" v-bind:value="user.id" v-on:change="checkUncheck($event)"/>
           </td>
           <td>{{ user.firstName }}</td>
@@ -52,16 +53,22 @@
           <td>{{ user.emailAddress }}</td>
           <td>{{ user.status }}</td>
           <td>
-            <button v-on:click="flipStatus(user.id)" class="btnEnableDisable">{{user.status == "Disabled" ? "Enable" : "Disable"}}</button>
+            <!-- STEP 4 -->
+            <button v-on:click="flipStatus(user.id)" class="btnEnableDisable">{{
+              user.status == "Disabled" ? "Enable" : "Disable"
+          }}
+            </button>
           </td>
         </tr>
       </tbody>
     </table>
     <div class="all-actions">
+      // STEP 5
       <button v-bind:disabled= "actionButtonDisabled" v-on:click="enableSelectedUsers">Enable Users</button>
       <button v-bind:disabled= "actionButtonDisabled" v-on:click="disableSelectedUsers">Disable Users</button>
       <button v-bind:disabled= "actionButtonDisabled" v-on:click="deleteSelectedUsers">Delete Users</button>
     </div>
+    <!-- STEP 3 -->
     <button v-on:click="showForm = !showForm">Add New User</button>
     <form v-show="showForm === true" id="frmAddNewUser" v-on:submit.prevent = "saveUser">
       <div class="field">
@@ -90,7 +97,9 @@ export default {
   name: "user-list",
   data() {
     return {
+      //STEP 5
       selectedUserIDs: [],
+      // step 3
       showForm: false,
       filter: {
         firstName: "",
@@ -160,6 +169,7 @@ export default {
     };
   },
   methods: {
+    // STEP 6
     checkUncheck(event) {
       if (event.target.checked == true) {
         this.selectedUserIDs.push(parseInt(event.target.id))
@@ -170,6 +180,7 @@ export default {
         this.selectedUserIDs.splice(index, 1)
       }
     },
+    // STEP 6
     selectAll(event) {
     if(event.target.checked == true) {
       this.selectedUserIDs = [];
@@ -180,43 +191,49 @@ export default {
       this.selectedUserIDs = [];
     }
     },
+    // STEP 5
     deleteSelectedUsers(){
-        this.selectedUserIDs.forEach((aUserId) => {
+        this.selectedUserIDs.forEach((selUserId) => {
         let index = this.users.findIndex(user => {
-         return user.id == aUserId
+         return user.id == selUserId
         })
         this.users.splice(index, 1)
       })
       this.selectedUserIDs = [];
     },
-        disableSelectedUsers(){
-      this.selectedUserIDs.forEach((aUserId) => {
+    // STEP 5
+    disableSelectedUsers(){
+      this.selectedUserIDs.forEach((selUserId) => {
         let index = this.users.findIndex(user => {
-        return user.id == aUserId
+        return user.id == selUserId
       })
       if (this.users[index].status === "Active"){
         this.users[index].status = "Disabled"
         }})
       this.selectedUserIDs = [];
       },
+      // STEP 5
     enableSelectedUsers(){
-      this.selectedUserIDs.forEach((aUserId) => {
+      this.selectedUserIDs.forEach((selUserId) => {
         let index = this.users.findIndex(user => {
-        return user.id == aUserId})
+        return user.id == selUserId})
       if (this.users[index].status === "Disabled"){
         this.users[index].status = "Active"}})
       this.selectedUserIDs = [];
       },
+      //STEP 4
     flipStatus(id){
       let index = this.users.findIndex(user => {
         return user.id == id})
       this.users[index].status = this.users[index].status === "Active" ? "Disabled" : "Active"
       },
+      // STEP 3
     saveUser() {
       this.users.push(this.newUser)
       }
     },
   computed: {
+    //STEP 5
     actionButtonDisabled(){
       if (this.selectedUserIDs.length === 0) {
         return true;
