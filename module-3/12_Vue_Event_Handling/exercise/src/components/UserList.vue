@@ -54,7 +54,7 @@
 
             <!-- <input type="checkbox" 
             v-bind:id="user.id" 
-            v-bind:value="user.id"     <--- getting put in the array; can change to name, etc
+            v-bind:value="user.id"     <--- getting put in the array; can change to name, etc v-bind:value="user.firstName"
             v-model= "selectedUserIds" /> -->
 
           </td>
