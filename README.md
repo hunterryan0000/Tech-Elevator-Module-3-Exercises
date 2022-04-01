@@ -205,3 +205,6 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 - Day 12
     - [Vue events](https://techelevator.zoom.us/rec/share/pPPyMx89-SHfCj0gMX7sz6fgbxSIZEU9gJyu6XvMTT8ivumkPl-vEXCcprr-8Gyr.k8d5cA89gNmzZn-W?startTime=1648648097000)
+
+- Day 13
+    - [Vuex and Components](https://techelevator.zoom.us/rec/share/KTTxgq5WRNGNZlUY4Z5DKGpYgm8F9Ko9IKHPrMchP5b60bQA1agv6Sa-HxU2ziaX.kNu_jLo3RWjdMiHk?startTime=1648733915000)
