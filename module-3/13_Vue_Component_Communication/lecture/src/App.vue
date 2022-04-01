@@ -3,31 +3,40 @@
     <h1>Product Reviews for </h1>
     <p class="description"></p>
     <div class="well-display">
-      <average-summary />
+      <!-- <average-summary />
       <star-summary />
       <star-summary />
       <star-summary />
       <star-summary />
-      <star-summary />
+      <star-summary /> -->
     </div>
-    <add-review />
-    <review-list />
+    <!-- STEP 2 of SRP -->
+
+    <!-- <add-review />
+    <review-list />  -->
+    <!-- <ProductReview/> -->
   </div>
 </template>
 
 <script>
-import AverageSummary from "./components/AverageSummary.vue";
-import StarSummary from "./components/StarSummary.vue";
-import AddReview from "./components/AddReview.vue";
-import ReviewList from "./components/ReviewList.vue";
+//STEP 1 of SRP 
+
+// import AverageSummary from "./components/AverageSummary.vue";
+// import StarSummary from "./components/StarSummary.vue";
+// import AddReview from "./components/AddReview.vue";
+// import ReviewList from "./components/ReviewList.vue";
+// import ProductReview from "./components/ProductReview.vue"
 
 export default {
   name: "app",
   components: {
-    AverageSummary,
-    StarSummary,
-    AddReview,
-    ReviewList
+    //STEP 3 of SRP
+
+    // AverageSummary,
+    // StarSummary,
+    // AddReview,
+    // ReviewList
+    // ProductReview
   }
 };
 </script>
