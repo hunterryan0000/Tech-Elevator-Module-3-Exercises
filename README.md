@@ -208,3 +208,6 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 - Day 13
     - [Vuex and Components](https://techelevator.zoom.us/rec/share/KTTxgq5WRNGNZlUY4Z5DKGpYgm8F9Ko9IKHPrMchP5b60bQA1agv6Sa-HxU2ziaX.kNu_jLo3RWjdMiHk?startTime=1648733915000)
+
+- Day 14
+    - [Review](https://techelevator.zoom.us/rec/share/UtVSC_uzJXzj7KomuoZvOCFYuFyj6J2l1eJle0PW-XT9XqLSqZI_CAQ0XFOErPiO.8LSBCB2Tt6PsmkXt?startTime=1648820491000)
