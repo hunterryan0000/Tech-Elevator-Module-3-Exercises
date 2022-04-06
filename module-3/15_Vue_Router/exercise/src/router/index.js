@@ -1,17 +1,17 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Books from '@/views/Home.vue';
-import MyBooks from '@/views/MyBooks.vue';
-import NewBook from '@/views/NewBook.vue';
-import BookDetails from '@/views/BookDetails.vue';
+import Home from '@/views/Home';
+import MyBooks from '@/views/MyBooks';
+import NewBook from '@/views/NewBook';
+import BookDetail from '@/views/BookDetailsView';
 
 Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '/',
-    name: 'books',
-    component: Books
+    path: '/', 
+    name: 'home',
+    component: Home
   },
   {
     path: '/myBooks',
@@ -20,14 +20,15 @@ const routes = [
   },
   {
     path: '/addBook',
-    name: 'new-book-form',
+    name: 'add-book',
     component: NewBook
   },
   {
     path: '/book/:isbn',
-    name: 'book-details',
-    component: BookDetails
+    name: 'book-detail',
+    component: BookDetail
   }
+
 ];
 
 const router = new VueRouter({

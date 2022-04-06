@@ -1,5 +1,5 @@
 <template>
-    <div class='home'>  
+    <div>  
         <best-seller-list />  
         <new-releases-list />
     </div>  
