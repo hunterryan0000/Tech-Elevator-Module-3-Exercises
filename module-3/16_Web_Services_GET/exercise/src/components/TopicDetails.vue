@@ -11,6 +11,11 @@
 </template>
 
 <script>
+
+// Update the `TopicDetails` component to use that 
+// new method to update its data.
+import topicsService from '@/services/TopicsServices';
+
 export default {
   name: 'topic-details',
   props: {
@@ -24,6 +29,13 @@ export default {
         messages: []
       },
     }
+  },
+  // Update the `TopicDetails` component 
+  // to use that new method to update its data.
+  created() {
+    topicsService.getMessages(this.$route.params.id).then(response => {
+      this.topic = response.data;
+    })
   }
 }
 </script>
