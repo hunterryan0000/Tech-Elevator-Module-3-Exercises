@@ -46,6 +46,7 @@ public class Exercises {
 	 makeOutWord("[[]]", "word") → "[[word]]"
 	 */
 	public String makeOutWord(String out, String word) {
+		//sub string take first 2 char of out + word + last 2 char of out
 		return (out.substring(0, 2) + word + out.substring(2, 4));
 	}
 
@@ -197,6 +198,7 @@ public class Exercises {
 		if (length < 2) {
 			return false;
 		}
+		//.equals for substring
 		return (str.substring(length - 2).equals("ly"));
 	}
 
