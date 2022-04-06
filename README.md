@@ -211,3 +211,8 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 - Day 14
     - [Review](https://techelevator.zoom.us/rec/share/UtVSC_uzJXzj7KomuoZvOCFYuFyj6J2l1eJle0PW-XT9XqLSqZI_CAQ0XFOErPiO.8LSBCB2Tt6PsmkXt?startTime=1648820491000)
+
+#### Week 12
+
+- Day 15
+    - [Vue Router](https://techelevator.zoom.us/rec/share/0QKoHUZuRFDk9zTgI8iC6L5MGf7nyj6koLJhp4L4vHvaH-Ggyf5-I8UM-RZTxDIn.pR_l-g5CxMupGybj?startTime=1649166703000)
