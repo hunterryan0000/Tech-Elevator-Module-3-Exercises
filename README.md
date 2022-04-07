@@ -216,3 +216,9 @@ Class lectures are recorded each day and links will be posted here once availabl
 
 - Day 15
     - [Vue Router](https://techelevator.zoom.us/rec/share/0QKoHUZuRFDk9zTgI8iC6L5MGf7nyj6koLJhp4L4vHvaH-Ggyf5-I8UM-RZTxDIn.pR_l-g5CxMupGybj?startTime=1649166703000)
+
+- Day 16
+    - [HTTP GET](https://techelevator.zoom.us/rec/share/Lu_8httkKJxmdItZ_6wYnc5AKO4DsOin_NlfQgVz57q2k3nifRzYeUbzTanbeJgG.Tg42dqPYPgiyXsEF?startTime=1649252806000)
+
+-Day 17
+    - [HTTP POST](https://techelevator.zoom.us/rec/share/guWL6nBXKTI7TZdyl94A4RE0hm4hklXW0B37iPIPlWGCWnS6fuiQBeq9SEw7vLvY.RSjyk32wkhsMTWuS?startTime=1649339239000)
