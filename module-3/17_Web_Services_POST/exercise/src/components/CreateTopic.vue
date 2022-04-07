@@ -5,7 +5,9 @@
       <input type="text" v-model="topic.title" />
     </div>
     <div class="actions">
-      <button type="submit" v-on:click="saveTopic()">Save Document</button>
+      <router-link to="/">
+        <button type="submit" v-on:click="saveTopic()">Save Document</button>
+      </router-link>    
     </div>
   </form>
 </template>
@@ -24,7 +26,13 @@ export default {
     };
   },
   methods: {
-    saveTopic() {}
+    // You'll see that the `saveTopic()` method is empty. 
+    // You'll need to call the method you created in `TopicService`.
+    saveTopic() {
+      topicService.addTopic(this.topic).then(response => {
+        this.topic = response.data
+      })
+    }
   }
 };
 </script>

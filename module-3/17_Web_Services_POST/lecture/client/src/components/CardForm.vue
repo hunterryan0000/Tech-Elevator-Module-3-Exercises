@@ -23,7 +23,7 @@
       <label for="description">Description:</label>
       <textarea id="description" class="form-control" v-model="card.description"></textarea>
     </div>
-    <button class="btn btn-submit">Submit</button>
+    <button class="btn btn-submit" type="submit">Submit</button>
     <button class="btn btn-cancel" v-on:click.prevent="cancelForm" type="cancel">Cancel</button>
   </form>
 </template>

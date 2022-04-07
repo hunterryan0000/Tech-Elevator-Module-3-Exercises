@@ -9,7 +9,9 @@
       <input type="text" name="messageText" v-model="message.messageText" />
     </div>
     <div class="actions">
-      <button type="submit" v-on:click="saveMessage()">Save Message</button>
+      <router-link to="/${message.topicId}">
+        <button type="submit" v-on:click="saveMessage()">Save Message</button>
+      </router-link>    
     </div>
   </form>
 </template>
@@ -31,8 +33,11 @@ export default {
     };
   },
   methods: {
+    // You'll need to call the method you created in `MessageService`
     saveMessage() {
-
+      messageService.addMessage(this.message).then(response => {
+        this.message = response.data
+      })
     }
   }
 };

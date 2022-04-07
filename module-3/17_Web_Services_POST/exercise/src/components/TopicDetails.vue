@@ -32,7 +32,13 @@ export default {
     topicId: Number
   },
   methods: {
-    deleteMessage(id) {}
+    // performs a `DELETE` 
+    // request to the URL `/messages/:id`, and returns a Promise.
+    deleteMessage(id) {
+      messageService.deleteMessage(id).then(response => {
+        this.$store.commit("DELETE_MESSAGE", id);
+      })
+    }
   },
   created() {
     topicService
@@ -41,7 +47,7 @@ export default {
         this.$store.commit("SET_ACTIVE_TOPIC", response.data);
       })
       .catch(error => {
-        if (error.response.status == 404) {
+        if (error.response.status === 404) {
           this.$router.push({name: 'NotFound'});
         }
       });
