@@ -35,8 +35,12 @@ export default {
         messageText: this.messageText
       };
       // call update in message service
-      messageService.updateMessage(message);
-      this.$router.push(`/${message.topicId}`);
+      messageService.updateMessage(message)
+        .then(response => {
+           if (response.status === 200) {
+             this.$router.push(`/${message.topicId}`);
+        }
+      })     
     }
   },
   created() {
@@ -48,8 +52,7 @@ export default {
         this.messageText = response.data.messageText;
       })
       .catch(error => {
-        // You'll need to call the method you created in `MessageService`
-        if (error.response.status === 404) {
+        if (error.response.status == 404) {
           this.$router.push({name: 'NotFound'});
         }
       });

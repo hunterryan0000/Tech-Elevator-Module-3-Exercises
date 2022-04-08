@@ -21,5 +21,4 @@ export default {
   deleteMessage(message) {
     return http.delete(`/messages/${ message }`)
   },
-
 }

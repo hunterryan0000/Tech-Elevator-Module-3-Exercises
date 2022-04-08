@@ -12,9 +12,8 @@
         <tr v-for="topic in this.$store.state.topics" v-bind:key="topic.id">
           <td width="80%">
             <router-link
-              v-bind:to="{ name: 'Messages', params: { id: topic.id } }">
-              {{ topic.title }}
-            </router-link>
+              v-bind:to="{ name: 'Messages', params: { id: topic.id } }"
+            >{{ topic.title }}</router-link>
           </td>
           <td>
             <router-link :to="{ name: 'EditTopic', params: {id: topic.id} }">Edit</router-link>
@@ -39,11 +38,10 @@ export default {
         this.$store.commit("SET_TOPICS", response.data);
       });
     },
-    // You'll need to call the method you created in `TopicService`. 
     deleteTopic(id) {
-      topicService.deleteTopic(id)
-      topicService.list();
-      this.getTopics();
+      topicService.deleteTopic(id).then(response => {
+        this.getTopics();
+      })
     }
   },
   created() {
