@@ -30,7 +30,7 @@ create dynamic webpages
 - Vue router to add multiple pages and navigate between them
 
 ### Web Services (GET)
--Learn how to make HTTP requests in JS using Axios
+- Learn how to make HTTP requests in JS using Axios
 
 ### Web Services (POST)
 - Learn how to make POST, PUT, DELETE requests
