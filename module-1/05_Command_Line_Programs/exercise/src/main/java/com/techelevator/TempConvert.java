@@ -24,9 +24,9 @@ public class TempConvert {
 		double tempF = temp * 1.8 + 32;
 
 
-		if (whichIsIt.equals("F")) {
+		if (whichIsIt.equalsIgnoreCase("F")) {
 				System.out.println(temp + whichIsIt + " is " + tempC + "C");
-			} 	else if (whichIsIt.equals("C")) {
+			} 	else if (whichIsIt.equalsIgnoreCase("C")) {
 				System.out.println(temp + whichIsIt + " is " + tempF + "F");
 			}
 		System.out.println("\n \nYay for conversions! Woooo!!!!");

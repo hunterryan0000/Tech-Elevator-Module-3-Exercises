@@ -6,9 +6,10 @@ public class HomeworkAssignment {
     private int earnedMarks;
     private int possibleMarks;
     private String submitterName;
-//    private String letterGrade;
+    private String letterGrade;
 
     // constructor
+    public HomeworkAssignment () {};
 
     public HomeworkAssignment(int possibleMarks, String submitterName) {
         this.possibleMarks = possibleMarks;
@@ -17,7 +18,7 @@ public class HomeworkAssignment {
     }
 
 
-        public String getSubmitterName () {
+    public String getSubmitterName () {
             return submitterName;
         }
 
@@ -46,9 +47,8 @@ public class HomeworkAssignment {
             } else if (grade >= .6) {
                 return "D";
             }
-            {
+
                 return "F";
-            }
 
     }
 }

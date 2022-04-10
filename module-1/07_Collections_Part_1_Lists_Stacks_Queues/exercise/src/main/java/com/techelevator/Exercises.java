@@ -33,6 +33,7 @@ public class Exercises {
 	 list2Array( ["Left", "Right", "Forward", "Back"] )  ->  {"Left", "Right", "Forward", "Back"}
 	 */
 	public String[] list2Array(List<String> stringList) {
+
 		return stringList.toArray(new String[stringList.size()]);
 	}
 
@@ -77,6 +78,7 @@ public class Exercises {
 	 findLargest( [34070, 1380, 81238, 7782, 234, 64362, 627] ) -> 81238
 	 */
 	public Integer findLargest(List<Integer> integerList) {
+
 		return Collections.max(integerList);
 	}
 
@@ -87,7 +89,7 @@ public class Exercises {
 	 oddOnly( {734, 233, 782, 811, 3, 9999} ) -> [233, 811, 3, 9999]
 	 */
 	public List<Integer> oddOnly(Integer[] integerArray) {
-		ArrayList<Integer> onlyOdds = new ArrayList<Integer>();
+		ArrayList<Integer> onlyOdds = new ArrayList<>();
 
 		for (int numbers : integerArray)
 			if (numbers % 2 == 1) {

@@ -16,7 +16,7 @@ export default {
 
 // performs a `POST` request to the URL `/topics`, and returns a Promise.
   addTopic(topic) {
-    return http.post(`/topics`, topic);
+    return http.post(`/topics/`, topic);
   },                                        
 
 // performs a `PUT` request to the URL `/topics/:id`, and returns a Promise.

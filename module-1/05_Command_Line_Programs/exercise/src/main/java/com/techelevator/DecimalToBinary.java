@@ -12,7 +12,7 @@ public class DecimalToBinary {
 
 
 		String decimalValuesEntered = scanner.nextLine();
-		String[] decimalValuesSeparated = decimalValuesEntered.strip();
+		String[] decimalValuesSeparated = decimalValuesEntered.split(" ");
 
 
 		for(int i = 0;  i < decimalValuesSeparated.length ; i++) {

@@ -20,9 +20,9 @@ public class LinearConvert {
 		double f = measurement * 3.2808399;
 
 
-		if (mOrF.equals("f")) {
+		if (mOrF.equalsIgnoreCase("f")) {
 			System.out.println(measurement + mOrF + " is " + m + "m");
-		} else if (mOrF.equals("m")) {
+		} else if (mOrF.equalsIgnoreCase("m")) {
 			System.out.println(measurement + mOrF + " is " + f + "f");
 		}
 
